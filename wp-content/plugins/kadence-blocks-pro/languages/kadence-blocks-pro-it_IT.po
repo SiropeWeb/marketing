@@ -1,0 +1,734 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kadence Blocks Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Angelo Giammarresi - info@wocmultimedia.biz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-21 16:30-0600\n"
+"PO-Revision-Date: 2020-05-21 16:38-0600\n"
+"Language: it\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr_e;esc_attr__;esc_html__;esc_html_e;esc_attr_x;_x;esc_html_x\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-kadence-blocks-pro.php:66
+#: class-kadence-blocks-pro.php:76
+msgid "Cheatin&#8217; huh?"
+msgstr "Scherzando, ah ah?"
+
+#: class-kadence-blocks-pro.php:227
+msgid "Install Kadence Blocks"
+msgstr "Installa Kadence Blocks"
+
+#: class-kadence-blocks-pro.php:230
+msgid "Activate Kadence Blocks"
+msgstr "Attivare Blocchi Kadence"
+
+#: class-kadence-blocks-pro.php:247
+#, php-format
+msgid "Kadence Bocks Pro requires %s to be active for all functions to work."
+msgstr "Kadence Bocks Pro richiede %s sia attivo affinché funzionino tutte le opzioni."
+
+#: class-kadence-blocks-pro.php:249
+msgid "Activating..."
+msgstr "Attivando."
+
+#: class-kadence-blocks-pro.php:249
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:394
+msgid "Activated"
+msgstr "Attivato"
+
+#: class-kadence-blocks-pro.php:249
+msgid "Installing..."
+msgstr "Installando."
+
+#: class-kadence-blocks-pro.php:249
+msgid "Installed"
+msgstr "Installato"
+
+#: dist/blocks.build.js:1
+#: dist/class-kadence-blocks-pro-backend.php:89
+msgid "Image Overlay"
+msgstr "Sovrapponi Immagine"
+
+#: dist/blocks.build.js:1
+#: dist/class-kadence-blocks-pro-backend.php:95
+msgid "Split Content"
+msgstr "Contenuto Diviso"
+
+#: dist/blocks.build.js:1
+#: dist/class-kadence-blocks-pro-backend.php:101
+msgid "Post Grid/Carousel"
+msgstr "Griglia/Carosello Articoli"
+
+#: dist/blocks.build.js:1
+#: dist/dynamicblocks/portfolio-grid-carousel.php:651
+#: dist/dynamicblocks/portfolio-grid-carousel.php:663
+#: dist/form/admin/kb-form-admin-entries-table-list.php:662
+msgid "All"
+msgstr "Tutto"
+
+#: dist/blocks.build.js:1
+#: dist/dynamicblocks/post-grid-carousel.php:526
+msgid "Read More"
+msgstr "Leggi di più"
+
+#: dist/blocks.build.js:1
+#: dist/dynamicblocks/post-grid-carousel.php:1834
+msgid "Comment"
+msgstr "Commento"
+
+#: dist/blocks.build.js:1
+#: dist/dynamicblocks/post-grid-carousel.php:1836
+msgid "Comments"
+msgstr "Commenti"
+
+#: dist/blocks.build.js:1
+#: dist/class-kadence-blocks-pro-backend.php:107
+msgid "Modal"
+msgstr "Modale"
+
+#: dist/blocks.build.js:1
+#: dist/class-kadence-blocks-pro-backend.php:113
+msgid "Product Carousel"
+msgstr "Carosello Prodotti"
+
+#: dist/blocks.build.js:1
+#: dist/class-kadence-blocks-pro-backend.php:119
+msgid "Video Popup"
+msgstr "Popup Video"
+
+#: dist/blocks.build.js:1
+#: dist/dynamicblocks/portfolio-grid-carousel.php:911
+msgid "Zoom"
+msgstr "Zoom"
+
+#: dist/blocks.build.js:1
+#: dist/class-kadence-blocks-pro-backend.php:125
+msgid "Portfolio Grid/Carousel"
+msgstr "Griglia/Carosello Portfolio"
+
+#: dist/blocks.build.js:1
+#: dist/form/kbp-form-actions.php:52
+#: dist/form/kbp-form-actions.php:62
+msgid "Thanks for contacting us!"
+msgstr "Grazie per averci contattato!"
+
+#: dist/blocks.build.js:1
+#: dist/form/kbp-form-actions.php:53
+#: dist/form/kbp-form-actions.php:63
+msgid "Thanks for getting in touch, we will respond within the next 24 hours."
+msgstr "Grazie per averci contattato, ti risponderemo entro le prossime 24 ore."
+
+#: dist/blocks.build.js:1
+#: dist/form/admin/kb-form-admin-entries-table-list.php:401
+msgid "Form Name"
+msgstr "Nome Modulo"
+
+#: dist/class-kadence-blocks-post-select-controller.php:205
+msgid "Limit results to items of an object type."
+msgstr "Limita i risultati agli elementi di un tipo di oggetto."
+
+#: dist/class-kadence-blocks-post-select-controller.php:216
+msgid "Limit results to items that match search query."
+msgstr "Limita i risultati agli elementi che coincidono con la domanda richiesta."
+
+#: dist/class-kadence-blocks-post-select-controller.php:221
+msgid "Include posts by ID."
+msgstr "Includi Articoli per ID."
+
+#: dist/class-kadence-blocks-post-select-controller.php:228
+msgid "Number of results to return."
+msgstr "Numero di risultati da mostrare."
+
+#: dist/class-kadence-blocks-post-select-controller.php:235
+msgid "Page of results to return."
+msgstr "Pagina di risultati da mostrare."
+
+#: dist/class-kadence-blocks-post-select-controller.php:246
+#, php-format
+msgid "Limit result set to all items that have the specified term assigned in the %s taxonomy."
+msgstr "Limite risulta essere attivo su tutti gli elementi che hanno assegnato il termine nella %s taxonomia."
+
+#: dist/class-kadence-blocks-pro-backend.php:55
+msgid "Send in Blue V3 API Key"
+msgstr "Invia chiave API V3 Blue"
+
+#: dist/class-kadence-blocks-pro-backend.php:66
+msgid "Mail Chimp API Key"
+msgstr "Chiave API Mail Chimp"
+
+#: dist/class-kadence-blocks-pro-backend.php:90
+msgid "The Image Overlay block is a beautiful way to create an image link with an overlay title and subtitle. Using the powerful options you can set placement, animations, and hover effects."
+msgstr "Il blocco dell'immagine sovrapposta è un bel modo per creare link con immagine con sovrapposto un titolo e sottotitolo. Utilizzando le potenti opzioni puoi impostare posizione, animazione e effetti al passaggio del mouse."
+
+#: dist/class-kadence-blocks-pro-backend.php:96
+msgid "Easily create a two column row using an image or video in one column, drag to adjust the media column width and input any desirable blocks in the content column."
+msgstr "Crea facilmente righe a due colonne usando un'immagine o un video in una colonna, trascina o regola la larghezza della colonna dei Media e inserisci qualsiasi blocco desideri nella colonna del contenuto."
+
+#: dist/class-kadence-blocks-pro-backend.php:102
+msgid "Add a grid or carousel of posts and customize the styling to your desired look. Posts can be selected individually or by category or tag."
+msgstr "Aggiungi una griglia o carosello di post e personalizza lo stile per come desideri che appaia. I post/articoli possono essere selezionati individualmente o per categoria o per tag."
+
+#: dist/class-kadence-blocks-pro-backend.php:108
+msgid "Easily create call to action buttons that open a modal box. Include any kind of content within your modal. Customize overlay, animation, size, placement etc."
+msgstr "Crea facilmente pulsanti di invito all'azione che aprono una casella modale. Includi qualsiasi tipo di contenuto nel tuo modale. Personalizza sovrimpressione, animazione, dimensioni, posizionamento ecc."
+
+#: dist/class-kadence-blocks-pro-backend.php:114
+msgid "Add a Woocommerce Product Carousel to your page or post. You can select products by category, on sale, best selling or just individually select the products you want to show."
+msgstr "Aggiungi un carosello di prodotti Woocommerce alla tua pagina o al tuo post. Puoi selezionare i prodotti per categoria, in vendita, i più venduti o semplicemente selezionare singolarmente i prodotti che desideri mostrare."
+
+#: dist/class-kadence-blocks-pro-backend.php:120
+msgid "Beautifully display a thumbnail with overlay and hover effect that links to a video popup on click. Works with local or external videos!"
+msgstr "Visualizza magnificamente una miniatura con effetto sovrimpressione e al passaggio del mouse che si collega a un video popup con un clic. Funziona con video locali o esterni!"
+
+#: dist/class-kadence-blocks-pro-backend.php:126
+msgid "Display a grid or carousel of portfolio styled posts. Use any post type and define colors, hover animations. You can also add a filter for sorting."
+msgstr "Visualizza una griglia o un carosello di post in stile portfolio. Usa qualsiasi tipo di post e definisci i colori,  animazioni al passaggio del mouse. Puoi anche aggiungere un filtro per l'ordinamento."
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:103
+#: dist/class-kadence-blocks-pro-custom-icons.php:317
+#: dist/class-kadence-blocks-pro-custom-icons.php:329
+msgid "Custom Icons"
+msgstr "Icone personalizzate"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:131
+msgid "Choose or Upload File"
+msgstr "Seleziona o carica un file"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:132
+msgid "Use this File"
+msgstr "Usa questo file"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:144
+msgid "Icon Set"
+msgstr "Set di icone"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:169
+msgid "Icon Set Name:"
+msgstr "Nome Set di Icone:"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:174
+msgid "Icon Set Prefix:"
+msgstr "Prefisso Set di Icone:"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:176
+#: dist/class-kadence-blocks-pro-custom-icons.php:178
+#: dist/class-kadence-blocks-pro-custom-icons.php:203
+msgid "Edit File"
+msgstr "Modifica file"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:179
+#: dist/class-kadence-blocks-pro-custom-icons.php:204
+msgid "Save/Publish to see uploaded icons."
+msgstr "Salva/Pubblica per vedere le icone caricate."
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:199
+msgid "Selection.json file"
+msgstr "Seleziona un file .json"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:200
+msgid "Upload .json file from within the IcoMoon .zip file (Make sure each set has a unique prefix)"
+msgstr "Carica il file .json dal file .zip di IcoMoon (assicurati che ogni set abbia un prefisso univoco)"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:202
+msgid "Upload File"
+msgstr "Carica file"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:213
+msgid "Show only these icons"
+msgstr "Mostra solo queste icone"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:318
+msgid "Custom Icon"
+msgstr "Icona personalizzata"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:319
+#: dist/class-kadence-blocks-pro-custom-icons.php:320
+msgid "Add New Custom Icon"
+msgstr "Aggiungi nuova icona personalizzata"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:321
+msgid "Edit Custom Icon"
+msgstr "Modifica icona personalizzata"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:322
+msgid "New Custom Icon"
+msgstr "Nuova icona personalizzata"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:323
+msgid "All Custom Icons"
+msgstr "Tutte le icone personalizzate"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:324
+msgid "View Custom Icon"
+msgstr "Vedi icona personalizzata"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:325
+msgid "Search Custom Icons"
+msgstr "Cerca icone personalizzate"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:326
+msgid "No Custom Icons found"
+msgstr "Non ci sono icone personalizzate"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:327
+msgid "No Custom Icons found in Trash"
+msgstr "Non ci sono icone personalizzate nel cestino"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:376
+msgid "Custom Icon Set"
+msgstr "Gruppo icone personalizzate"
+
+#: dist/class-kadence-blocks-pro-custom-icons.php:397
+msgid "Not Found"
+msgstr "Non trovato"
+
+#: dist/dynamicblocks/form-mailchimp-rest-api.php:147
+msgid "The API Key for mailchimp account."
+msgstr "La chiave API per l'account mailchimp."
+
+#: dist/dynamicblocks/form-mailchimp-rest-api.php:152
+msgid "Actionable endpoint for api call."
+msgstr "Endpoint utilizzabile per la chiamata API."
+
+#: dist/dynamicblocks/form-mailchimp-rest-api.php:157
+msgid "Query Args for url."
+msgstr "Query Args per url."
+
+#: dist/dynamicblocks/portfolio-grid-carousel.php:910
+msgid "View Project Preview"
+msgstr "Vedi anteprima progetto"
+
+#: dist/dynamicblocks/post-grid-carousel.php:314
+msgid "Posted on"
+msgstr "Pubblicato il"
+
+#: dist/dynamicblocks/post-grid-carousel.php:322
+#, fuzzy
+msgid "Updated on"
+msgstr "Pubblicato il"
+
+#: dist/dynamicblocks/post-grid-carousel.php:330
+msgid "By"
+msgstr "Da"
+
+#: dist/dynamicblocks/post-grid-carousel.php:338
+msgid "Posted in"
+msgstr "Pubblicato su"
+
+#: dist/dynamicblocks/post-grid-carousel.php:909
+msgid "No posts"
+msgstr "Nessun articolo"
+
+#: dist/dynamicblocks/post-grid-carousel.php:1944
+msgid "Comment Count"
+msgstr "Conteggio Commenti"
+
+#: dist/dynamicblocks/product-carousel-categories-rest-api.php:53
+#: dist/dynamicblocks/product-carousel-products-rest-api.php:53
+msgid "Unique identifier for the resource."
+msgstr "Identificato re univoco per la risorsa."
+
+#: dist/dynamicblocks/product-carousel-categories-rest-api.php:85
+msgid "Taxonomy does not exist."
+msgstr "La tassonomia non esiste."
+
+#: dist/dynamicblocks/product-carousel-categories-rest-api.php:94
+msgid "Resource does not exist."
+msgstr "La risorsa non esiste."
+
+#: dist/dynamicblocks/product-carousel-categories-rest-api.php:123
+#: dist/dynamicblocks/product-carousel-products-rest-api.php:124
+#: dist/dynamicblocks/product-carousel-products-rest-api.php:219
+msgid "Private REST API for use by block editor only."
+msgstr "REST API Privato per il solo uso di Block editor."
+
+#: dist/dynamicblocks/product-carousel-products-rest-api.php:82
+msgid "Sorry, you cannot list resources."
+msgstr "Non puoi elencare le risorse."
+
+#: dist/dynamicblocks/product-carousel-products-rest-api.php:96
+msgid "Sorry, you cannot view this resource."
+msgstr "Non puoi vedere questa risorsa."
+
+#: dist/dynamicblocks/product-carousel-products-rest-api.php:322
+msgid "Operator to compare product category terms."
+msgstr "Operatore per confrontare i termini della categoria di prodotto."
+
+#: dist/dynamicblocks/product-carousel-products-rest-api.php:330
+msgid "Operator to compare product attribute terms."
+msgstr "Operatore per confrontare i termini dell'attributo del prodotto."
+
+#: dist/dynamicblocks/product-carousel-products-rest-api.php:338
+msgid "Determines if hidden or visible catalog products are shown."
+msgstr "Determina se vengono visualizzati i prodotti del catalogo nascosti o visibili."
+
+#: dist/dynamicblocks/product-carousel.php:226
+msgid "WooCommerce Missing"
+msgstr "Manca WooCommerce"
+
+#: dist/form/admin/kadence-admin-form-entries.php:52
+msgid "Kadence Blocks - Form Entries"
+msgstr "Kadence Blocks - Voci modulo"
+
+#: dist/form/admin/kadence-admin-form-entries.php:52
+#: dist/form/admin/kadence-admin-form-entries.php:262
+msgid "Form Entries"
+msgstr "Voci Modulo"
+
+#: dist/form/admin/kadence-admin-form-entries.php:87
+msgid "Kadence Blocks"
+msgstr "Installa Kadence Blocks"
+
+#: dist/form/admin/kadence-admin-form-entries.php:90
+msgid "Page Builder Toolkit"
+msgstr "Page Builder Toolkit"
+
+#: dist/form/admin/kadence-admin-form-entries.php:113
+msgid "Form Entry"
+msgstr "Voce Modulo"
+
+#: dist/form/admin/kadence-admin-form-entries.php:114
+msgid "Back to All Entries"
+msgstr "Torna a tutte le voci"
+
+#: dist/form/admin/kadence-admin-form-entries.php:123
+#, php-format
+msgid "%1$s : Entry #%2$s"
+msgstr "%1$s : Entrata #%2$s"
+
+#: dist/form/admin/kadence-admin-form-entries.php:136
+#: dist/form/admin/kadence-admin-form-entries.php:142
+#: dist/form/admin/kadence-admin-form-entries.php:147
+#: dist/form/admin/kb-form-admin-entries-table-list.php:325
+#: dist/form/admin/kb-form-admin-entries-table-list.php:346
+msgid "No Data"
+msgstr "Nessun dato"
+
+#: dist/form/admin/kadence-admin-form-entries.php:157
+msgid "Entry Details"
+msgstr "Dettagli voce"
+
+#: dist/form/admin/kadence-admin-form-entries.php:163
+msgid "Entry ID:"
+msgstr "ID Voce:"
+
+#: dist/form/admin/kadence-admin-form-entries.php:168
+msgid "Form Name:"
+msgstr "Nome modulo:"
+
+#: dist/form/admin/kadence-admin-form-entries.php:173
+msgid "Submitted:"
+msgstr "Inviato:"
+
+#: dist/form/admin/kadence-admin-form-entries.php:181
+msgid "User:"
+msgstr "Utente:"
+
+#: dist/form/admin/kadence-admin-form-entries.php:199
+msgid "Page:"
+msgstr "Pagina:"
+
+#: dist/form/admin/kadence-admin-form-entries.php:206
+msgid "User IP:"
+msgstr "IP utente:"
+
+#: dist/form/admin/kadence-admin-form-entries.php:213
+msgid "User Device:"
+msgstr "Dispositivo utente:"
+
+#: dist/form/admin/kadence-admin-form-entries.php:236
+msgid "Move to trash"
+msgstr "Sposta nel cestino"
+
+#: dist/form/admin/kadence-admin-form-entries.php:271
+msgid "Search entries"
+msgstr "Cerca voci"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:42
+msgid "Entry"
+msgstr "Voce"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:43
+msgid "Entries"
+msgstr "Voci"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:59
+#: dist/form/admin/kb-form-admin-entries-table-list.php:175
+msgid "Published"
+msgstr "Pubblicato"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:60
+#: dist/form/admin/kb-form-admin-entries-table-list.php:176
+#: dist/form/admin/kb-form-admin-entries-table-list.php:255
+msgid "Trash"
+msgstr "Cestino"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:202
+msgid "No entries avaliable."
+msgstr "Nessuna voce disponibile."
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:239
+msgid "View"
+msgstr "Visualizza"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:275
+#: dist/form/admin/kb-form-admin-entries-table-list.php:430
+msgid "Restore"
+msgstr "Ripristina"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:292
+#: dist/form/admin/kb-form-admin-entries-table-list.php:434
+msgid "Delete Permanently"
+msgstr "Elimina definitivamente"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:398
+msgid "Actions"
+msgstr "Azioni"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:399
+msgid "Form ID"
+msgstr "ID Modulo"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:400
+msgid "Date Created"
+msgstr "Data di creazione"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:402
+msgid "First Field"
+msgstr "Primo campo"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:403
+msgid "Second Field"
+msgstr "Secondo campo"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:436
+msgid "Move to Trash"
+msgstr "Sposta nel cestino"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:579
+#, php-format
+msgid "%d entry restored."
+msgid_plural "%d entries restored."
+msgstr[0] "%d voce ripristinata."
+msgstr[1] "%d voci ripristinate."
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:589
+#, php-format
+msgid "%d entry permanently deleted."
+msgid_plural "%d entries permanently deleted."
+msgstr[0] "%d voce cancellata definitivamente."
+msgstr[1] "%d voci cancellate definitivamente."
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:599
+#, php-format
+msgid "%d entry trashed."
+msgid_plural "%d entries trashed."
+msgstr[0] "%d voce cestinata."
+msgstr[1] "%d voci cestinate."
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:607
+msgid "Trash permanently deleted"
+msgstr "Cestino svuotato completamente"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:636
+msgid "Filter"
+msgstr "Filtro"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:645
+msgid "Empty Trash"
+msgstr "Svuota cestino"
+
+#: dist/form/admin/kb-form-admin-entries-table-list.php:660
+msgid "Filter by form"
+msgstr "Filtra per modulo"
+
+#: dist/form/kbp-form-actions.php:122
+msgid "submission"
+msgstr "invio"
+
+#: dist/form/kbp-form-actions.php:131
+msgid "Not Collected"
+msgstr "Non raccolto"
+
+#: dist/form/kbp-form-actions.php:215
+msgid "No Response from SendInBlue"
+msgstr "Nessuna riposta da SendInBlue"
+
+#: dist/form/kbp-form-actions.php:243
+msgid "No Response from SendInBlue to add to list"
+msgstr "Nessuna riposta da SendInBlue da aggiungere alla lista"
+
+#: dist/form/kbp-form-actions.php:340
+msgid "Failed to Connect to MailChimp"
+msgstr "Impossibile connettersi a MailChimp"
+
+#: dist/templates/form-auto-email.php:136
+#, php-format
+msgid "Sent from %s"
+msgstr "Inviato da %s"
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:165
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:171
+msgid "The following plugins have not been activated: "
+msgstr "I seguenti plugin non sono stati attivati. "
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:165
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:171
+msgid "Click here to activate."
+msgstr "Fai clic qui per attivare."
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:358
+#, php-format
+msgid "<b>Warning!</b> You're blocking external requests which means you won't be able to get certain plugin updates. Please add %s to %s."
+msgstr "<b>Attenzione!</b> Stai bloccando le richieste esterne quindi non potrai ottenere alcuni aggiornamenti del plugin. Aggiungi %s to %s."
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:386
+msgid "Kadence Plugin Activation."
+msgstr "Attivazione Kadence Plugin."
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:389
+#, php-format
+msgid "Activating your license allows for plugin updates. If you need your api key you will find it by logging in to your %s Kadence WP account%s."
+msgstr "Attivando la tua licenza ti consente gli aggiornamenti del plugin. Se necessiti la tua API KEY la troverai accedendo al tuo %s Kadence WP account%s."
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:396
+msgid "Could Not Activate"
+msgstr "Non è possibile l'attivazione"
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:398
+msgid "Deactivated"
+msgstr "Disattivato"
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:400
+msgid "Could Not Deactivate, Try again."
+msgstr "Impossibile disattivare, riprova."
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:413
+msgid "Kadence Membership activated through theme"
+msgstr "Kadence Membership attivata con il tema"
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:414
+msgid " Status: Active"
+msgstr " Stato: Attivo"
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:421
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:429
+msgid "Activate"
+msgstr "Attivare"
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:438
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:444
+msgid "Deactivate"
+msgstr "Disattivare"
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:518
+msgid "API License Activation"
+msgstr "Attivazione Licenza API"
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:520
+msgid "API License Key"
+msgstr "Licenza API Key"
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:521
+msgid "API License Email"
+msgstr "Email Licenza API"
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:526
+msgid "Check box to deactivate API License key"
+msgstr "Seleziona la casella per disattivare la Licenza API Key"
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:656
+msgid "Missing API Key, PLease add. "
+msgstr "Manca API Key. Aggiungila. "
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:660
+msgid "Missing API Email, PLease add. "
+msgstr "Manca Email API. Aggiungila. "
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:672
+msgid "Plugin activated."
+msgstr "Plugin attivato."
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:682
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:766
+msgid "Connection failed to the License Key API server. Make sure your host servers php version has the curl module installed and enabled."
+msgstr "Collegamento fallito con il server della Licenza API Key. Assicurati che il server del tuo provider di servizi abbia installato e attivato il modulo curl nella versione PHP."
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:740
+msgid "Please check box to deactivate. "
+msgstr "Seleziona la casella per disattivare. "
+
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:760
+#: kadence-classes/kadence-activation/class-kadence-plugin-api-manager.php:809
+msgid "License deactivated."
+msgstr ""
+
+#~ msgid "Kadence Recaptcha Settings"
+#~ msgstr "Impostazioni di Kadence Recaptcha"
+
+#~ msgid "Google reCaptcha API Keys"
+#~ msgstr "Chiavi API Google reCaptcha"
+
+#~ msgid "Site Key:"
+#~ msgstr "Chiave del sito:"
+
+#~ msgid "Secret Key:"
+#~ msgstr "Chiave segreta:"
+
+#~ msgid "reCaptcha form options"
+#~ msgstr "Opzioni del modulo reCaptcha"
+
+#~ msgid "Enable for Post and Page Comments"
+#~ msgstr "Abilita per i commenti negli articoli e nelle pagine"
+
+#~ msgid "Enable for Woocommerce Reviews"
+#~ msgstr "Abilita per le recensioni Woocommerce"
+
+#~ msgid "Enable for Woocommerce My Account"
+#~ msgstr "Abilita per Mio account Woocommerce"
+
+#~ msgid "Google reCaptcha Style"
+#~ msgstr "Stile Google reCaptcha"
+
+#~ msgid "Choose a theme"
+#~ msgstr "Seleziona un tema"
+
+#~ msgid "Compact"
+#~ msgstr "Compatta"
+
+#~ msgid "Choose a type"
+#~ msgstr "Seleziona un tipo"
+
+#~ msgid "Audio"
+#~ msgstr "Audio"
+
+#~ msgid "Privacy Consent"
+#~ msgstr "Consenso Privacy"
+
+#~ msgid "Consent Cookie Name"
+#~ msgstr "Nome del cookie del Consenso"
+
+#~ msgid "Theme Specific Enable Options"
+#~ msgstr "Opzioni di attivazione specifiche del tema"
+
+#~ msgid "Enable for theme contact form"
+#~ msgstr "Abilita per il modulo dei contatti del tema"
+
+#~ msgid "Enable for testimonial form"
+#~ msgstr "Abilita per i moduli delle testimonianze"
+
+#~ msgid "To use this form you must consent to our %s."
+#~ msgstr "Per usare questo modulo devi acconsentire alla nostra %s."
+
+#~ msgid "*Cookies must be enabled in your browser"
+#~ msgstr "*I cookie devono essere abilitati nel tuo browser"
+
+#~ msgid "Sorry, it seems you're a robot."
+#~ msgstr "Sembra proprio che tu sia un robot."

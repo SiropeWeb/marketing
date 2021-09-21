@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+	<title>Real3D Flipbook - WordPress Plugin</title>
+ 	<meta name="description" content="">
+	<meta name="author" content="creativeinteractivemedia">
+	<meta name="copyright" content="creativeinteractivemedia">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2019-03-05T00:00:00+01:00">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/documenter_style.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+	
+	<style>
+		html, body{background-color:#FFFFFF;color:#383838;}
+		h1,h2,h3,h4,h5,h6{color:#383838;}
+		section table{background-color:#FFFFFF;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		a.brand{background-image:url();}
+		a, a:hover, a:active{color:#0000FF;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		div.navbar-inner, .navbar .nav li ul{background:#DDDDDD;color:#222222;}
+		a.btn-navbar{background:#DDDDDD;color:#222222;}
+		.navbar .nav li a{color:#222222;text-shadow:1px 1px 0px #EEEEEE;}
+		.navbar .nav li a:hover, .navbar .nav li.active a{text-shadow:none;}
+		div.navbar-inner ul{}
+		.marketing-byline{color:#FFFFFF;}
+		.navbar .nav > li a{color:#444444;}
+		.navbar .nav > li a:hover, a.btn-navbar:hover{background:#444444;color:#DDDDDD;}
+		.navbar .nav .active > a, .navbar .nav .active > a:hover, a.btn-navbar:active{background-color:#444444;color:#DDDDDD;}
+		.navbar .nav li ul li a:hover{background:#444444;color:#DDDDDD;}
+		.navbar .nav li ul li a:active{background:#444444;color:#DDDDDD;}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  background-color: #0044CC;
+		}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+	
+	
+    </head>
+    
+<body class="documenter-project-real3d-flipbook-wordpress-plugin" data-spy="scroll" id="top">
+
+<!-- Documentation Navbar -->
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container"> 
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+			<a class="brand" href="#">Real3D Flipbook - WordPress Plugin</a>
+			<div class="nav-collapse">
+			<ul class="nav">
+					
+			<li><a href="#installing_the_plugin" title="Installing the plugin">Installing the plugin</a></li>
+			<li><a href="#creating_flipbook" title="Creating Flipbook">Creating Flipbook</a></li>
+			<li><a href="#pdf_flipbook" title="PDF flipbook">PDF flipbook</a></li>
+			<li><a href="#jpg_flipbook" title="JPG flipbook">JPG flipbook</a></li>
+			<li><a href="#pdf_to_jpg_flipbook" title="PDF to JPG Flipbook">PDF to JPG Flipbook</a></li>
+			<li><a href="#edit_flipbook_pages" title="Edit Flipbook Pages">Edit Flipbook Pages</a></li>
+			<li><a href="#table_of_content" title="Table of content">Table of content</a></li>
+			<li><a href="#general" title="General">General</a>
+				<ul>
+					<li><a href="#general_mode">Mode</a>
+					<li><a href="#general_view_mode">View mode</a>
+					<li><a href="#general_texture_size">Texture size</a>
+					<li><a href="#general_zoomed_texture_size">Zoomed texture size</a>
+					<li><a href="#general_initial_zoom">Initial zoom</a>
+					<li><a href="#general_zoom_step">Zoom step</a>
+					<li><a href="#general_single_pagespan_style"white_space_pre"_span">Single page</a>
+					<li><a href="#general_page_flip_duration_nbspb_nbsp_b">Page flip duration&nbsp;&nbsp;</a>
+					<li><a href="#general_deep_linking_nbsp">Deep linking&nbsp;</a>
+					<li><a href="#general_deep_linking_prefix">Deep linking prefix</a>
+					<li><a href="#general_responsive_viewspan_style"white_space_pre"_span">Responsive view</a>
+					<li><a href="#general_responsive_viewspan_style"white_space_pre"_treshold_span">Responsive view treshold</a>
+					<li><a href="#general_container_height">Container height</a>
+					<li><a href="#general_strongfit_to_window_strong">Fit to window</a>
+					<li><a href="#general_fit_to_parent_div">Fit to parent div</a>
+					<li><a href="#general_fit_to_height">Fit to height</a>
+					<li><a href="#general_strongcontainer_responsive_height_strong">Container responsive height</a>
+					<li><a href="#general_strongright_to_left_modespan_style"white_space_pre"_span_strong">Right to left mode</a>
+					<li><a href="#general_strongpage_widthspan_style"white_space_pre"_span_strong">Page width</a>
+					<li><a href="#general_strongpage_heightspan_style"white_space_pre"_span_strong">Page height</a>
+					<li><a href="#general_strongthumbnail_sizespan_style"white_space_pre"_span_strong">Thumbnail size</a>
+					<li><a href="#general_stronglogo_imagespan_style"white_space_pre"_span_strong">Logo image</a>
+					<li><a href="#general_stronglogo_linkspan_style"white_space_pre"_span_strong">Logo link</a>
+					<li><a href="#general_stronglogo_cssspan_style"white_space_pre"_span_strong">Logo CSS</a>
+					<li><a href="#general_strongmenu_css_selectorspan_style"white_space_pre"_span_strong">Menu CSS selector</a>
+					<li><a href="#general_container_z_indexspan_style"white_space_pre"_span">Container z-index</a>
+					<li><a href="#general_strongpreloader_textspan_style"white_space_pre"_span_strong">Preloader text</a>
+				</ul>
+			</li>
+			<li><a href="#lightbox" title="Lightbox">Lightbox</a>
+				<ul>
+					<li><a href="#lightbox_stronglightbox_css_class_strong">Lightbox CSS class</a>
+					<li><a href="#lightbox_lightbox_overlay_css">Lightbox overlay CSS</a>
+					<li><a href="#lightbox_stronglightbox_overlay_background_strong">Lightbox overlay background</a>
+					<li><a href="#lightbox_stronglighbox_t_strongstronghumbnail_strongstrong_nbspurl_strong">Lighbox thumbnail&nbsp;url</a>
+					<li><a href="#lightbox_stronglightbox_thumbnail_css_strong">Lightbox thumbnail CSS</a>
+					<li><a href="#lightbox_stronglightbox_text_strong">Lightbox text</a>
+					<li><a href="#lightbox_stronglightbox_text_css_strong">Lightbox text CSS</a>
+					<li><a href="#lightbox_stronglightbox_opens_on_start_nbsp_strong">Lightbox opens on start&nbsp;</a>
+					<li><a href="#lightbox_stronglightbox_opens_in_fullscreen_strong">Lightbox opens in fullscreen</a>
+					<li><a href="#lightbox_strongvertical_margin_strong">Vertical margin</a>
+					<li><a href="#lightbox_stronghorizontal_margin_strong">Horizontal margin</a>
+				</ul>
+			</li>
+			<li><a href="#webgl" title="WebGL">WebGL</a>
+				<ul>
+					<li><a href="#webgl_lights">Lights</a>
+					<li><a href="#webgl_light_pposition_x">Light pposition x</a>
+					<li><a href="#webgl_light_position_y">Light position y</a>
+					<li><a href="#webgl_light_position_z">Light position z</a>
+					<li><a href="#webgl_light_intensity">Light intensity</a>
+					<li><a href="#webgl_shadows">Shadows</a>
+					<li><a href="#webgl_shadow_map_size">Shadow Map Size</a>
+					<li><a href="#webgl_shadow_opacity">Shadow opacity</a>
+					<li><a href="#webgl_shadow_plane_distance">Shadow plane distance</a>
+					<li><a href="#webgl_page_hardness">Page hardness</a>
+					<li><a href="#webgl_cover_hardness">Cover hardness</a>
+					<li><a href="#webgl_page_material_roughness">Page material roughness</a>
+					<li><a href="#webgl_page_material_metalness">Page material metalness</a>
+					<li><a href="#webgl_page_segments_w">Page segments W</a>
+					<li><a href="#webgl_page_segments_h">Page segments H</a>
+					<li><a href="#webgl_page_middle_shadow_size">Page middle shadow size</a>
+					<li><a href="#webgl_left_middle_shadow_color">Left middle shadow color</a>
+					<li><a href="#webgl_right_middle_shadow_color">Right middle shadow color</a>
+					<li><a href="#webgl_antialiasing">Antialiasing</a>
+					<li><a href="#webgl_camera_pan_angle">Camera pan angle</a>
+					<li><a href="#webgl_camera_tilt_angle">Camera tilt angle</a>
+					<li><a href="#webgl_rotate_camera_on_mouse_drag">Rotate camera on mouse drag</a>
+					<li><a href="#webgl_camera_pan_max">Camera pan max</a>
+					<li><a href="#webgl_camera_pan_min">Camera pan min</a>
+					<li><a href="#webgl_camera_tilt_max">Camera tilt max</a>
+					<li><a href="#webgl_camera_tilt_min">Camera tilt min</a>
+					<li><a href="#webgl_rotate_camera_on_mouse_move">Rotate camera on mouse move</a>
+					<li><a href="#webgl_camera_pan_max">Camera pan max</a>
+					<li><a href="#webgl_camera_pan_min">Camera pan min</a>
+					<li><a href="#webgl_camera_tilt_max">Camera tilt max</a>
+					<li><a href="#webgl_camera_tilt_min">Camera tilt min</a>
+				</ul>
+			</li>
+			<li><a href="#mobile" title="Mobile">Mobile</a></li>
+			<li><a href="#menu" title="Menu">Menu</a></li>
+			<li><a href="#social_share_buttons" title="Social share buttons">Social share buttons</a></li>
+			<li><a href="#ui" title="UI">UI</a>
+				<ul>
+					<li><a href="#ui_layout">Layout</a>
+					<li><a href="#ui_skin">Skin</a>
+					<li><a href="#ui_icons">Icons</a>
+					<li><a href="#ui_advanced_settings">Advanced settings</a>
+				</ul>
+			</li>
+			<li><a href="#embedding" title="Embedding">Embedding</a></li>
+			<li><a href="#import_export_flipbooks" title="Import/ Export flipbooks">Import/ Export flipbooks</a></li>
+			<li><a href="#faq" title="FAQ">FAQ</a>
+				<ul>
+					<li><a href="#faq_unable_to_save_flipbook_settings_unable_to_add_new_flipbook">Unable to save flipbook settings / unable to add new flipbook</a>
+					<li><a href="#faq_plugin_installation_failed">Plugin installation failed</a>
+					<li><a href="#faq_pdf_flipbook_loads_for_long_time">PDF Flipbook loads for long time</a>
+					<li><a href="#faq_jpg_flipbook_loads_for_long_time">JPG Flipbook loads for long time</a>
+					<li><a href="#faq_can_i_load_a_pdf_images_from_another_server_cross_domain_request_">Can I load a PDF/images from another server (cross domain request)?</a>
+					<li><a href="#faq_flipbook_is_not_working">Flipbook is not working</a>
+					<li><a href="#faq_updating_to_latest_version">Updating to latest version</a>
+				</ul>
+			</li>
+			<li><a href="#" title=""></a></li>
+
+			</ul>
+			</div>
+		</div>
+	</div>
+</div> <!-- End of Navbar -->
+
+<!-- Main Container Beginning -->			
+			
+<div class="container" id="documenter_content">
+    
+	<div id="documenter-cover">
+	<div class="masthead">
+	    <h1>Real3D Flipbook - WordPress Plugin</h1>
+	    <p></p>
+	    <ul class="marketing-byline">
+			<li>created: 02/19/2014</li>
+			<li>latest update: 03/05/2019</li>
+			<li>by: creativeinteractivemedia</li>
+			<li><a href="http://codecanyon.net/user/creativeinteractivemedia">codecanyon.net/user/creativeinteractivemedia</a></li>
+		</ul>
+	    <p class="download-info">
+			<a href="http://codecanyon.net/user/creativeinteractivemedia#contact" class="btn btn-primary btn-large">Email me</a> <a href="http://codecanyon.net/user/creativeinteractivemedia/portfolio" class="btn btn-large">CodeCanyon portfolio</a> 
+		</p>
+		
+	</div> <!-- masthead -->
+	
+   <div id="intro">
+    <p class="highlight hero-unit">Thank you for purchasing my item. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form. Thanks so much!
+Please rate the file on your downloads page if you like it!</p>
+   </div> <!-- intro -->
+   
+	</div>
+      
+  <section id="installing_the_plugin">
+	<div class="page-header"><h3>Installing the plugin</h3><hr class="notop"></div>
+<p>
+	This part of the documentation is going to cover, in a step by step instruction the installation of WP Plugins on your WordPress blog in general.</p>
+<div>
+	<strong>Step 1.</strong>&nbsp;Log into your WordPress Admin area.</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Step 2.</strong> Click &#39;Plugins&#39; button in the admin menu</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>Step 3.</strong> Click &#39;Add new and then &#39;Upload plugin&#39;&#39;</div>
+<div>
+	&nbsp;</div>
+<div dir="ltr">
+	<strong>Step 4.</strong>&nbsp;Select the the plugin zip from your PC, this is the real3dflipbook.zip inside the zip you had previously downloaded from CodeCanyon. Install the zip and click on &quot;Activate Plugin&quot;.</div>
+<div>
+	&nbsp;</div>
+<div>
+	Should you ever experience slight upload problems then please stay calm, simply use an FTP program to access your blog, then browse to /public_html/wp-content/plugins and upload the unzipped plugin here. Then open the Plugins page and activate the plugin.</div>
+<script>
+</script><script>
+</script><script>
+</script></section>
+<section id="creating_flipbook">
+	<div class="page-header"><h3>Creating Flipbook</h3><hr class="notop"></div>
+<p>
+	Once you have Flipbook plugin&nbsp;activated you can start creating flipbooks.</p>
+<p>
+	<strong>Step 1.</strong> Go to plugin admin page by clicking &quot;Real3D Flipbook&quot; on the left hand side of the admin page.&nbsp;Page &#39;Flipbooks&#39; will open. Here you can create, duplicate or delete flipbooks.&nbsp;</p>
+<p>
+	<strong>Step 2.</strong>&nbsp;To create a new flipbook click &#39;Add New&#39; button. New page &#39;Edit flipbook&#39; will open where you can create JPG flipbook or PDF flipbook</p>
+<script>
+</script><script>
+</script></section>
+<section id="pdf_flipbook">
+	<div class="page-header"><h3>PDF flipbook</h3><hr class="notop"></div>
+<p>
+	Flipbook can be created directly from PDF.&nbsp;</p>
+<p>
+	<strong>Step 1.</strong><strong>&nbsp;</strong>Select tab &#39;Pages&#39;&nbsp;</p>
+<p>
+	<strong>Step 2.</strong>&nbsp;Click &quot;PDF Flipbook&quot; . Media library will open.&nbsp;</p>
+<p>
+	<strong>Step 3.</strong>&nbsp;Select or upload pdf file. Pages from pdf will be automatically added to flipbook.</p>
+<p>
+	<strong>Step 4.</strong>&nbsp;Click &#39;Save&#39;.&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>PDF from another domain</strong></p>
+<p>
+	For using PDF from another domain you need to enable CORS by adding following header to server response&nbsp;</p>
+<pre style="background-image: url(&quot;../../_img/pre_bg.png&quot;);">
+Access-Control-Allow-Origin: *</pre>
+<p>
+	<strong>Fast PDF loading&nbsp;</strong></p>
+<p>
+	PDF flipbook supports partial PDF download (it can display pages before entire PDF is downloaded). For that feature to work server needs to support&nbsp;<strong>range requests</strong>.</p>
+</section>
+<section id="jpg_flipbook">
+	<div class="page-header"><h3>JPG flipbook</h3><hr class="notop"></div>
+<p>
+	Flipbook can be created from JPG images.&nbsp;</p>
+<p>
+	<strong>Step 1.</strong><strong>&nbsp;</strong>Select tab &#39;Pages&#39;&nbsp;</p>
+<p>
+	<strong>Step 2.</strong>&nbsp;Click button &#39;JPG flipbook&#39;. Media library will open.</p>
+<p>
+	<strong>Step 3.</strong>&nbsp;Select jpg pages from media library or upload jpg pages to media library. You can select or upload multiple pages at once, no need to upload one by one.&nbsp;</p>
+<p>
+	<strong>Step 4.</strong>&nbsp;Click &#39;Save&#39;.&nbsp;</p>
+</section>
+<section id="pdf_to_jpg_flipbook">
+	<div class="page-header"><h3>PDF to JPG Flipbook</h3><hr class="notop"></div>
+<p>
+	This option converts PDF to JPG images, saves JPG-s to server to folder wp-content/uploads/{book name} and creates JPG flipbook.</p>
+<p>
+	It is optimal way of creating flipbook from PDF if you don&#39;t need interactive PDF features like liknks, text search or text select.</p>
+<p>
+	<strong>Step 1.</strong><strong>&nbsp;</strong>Select tab &#39;Pages&#39;&nbsp;</p>
+<p>
+	<strong>Step 2.</strong>&nbsp;Click &quot;PDF to JPG Flipbook&quot; . Media library will open.&nbsp;</p>
+<p>
+	<strong>Step 3.</strong>&nbsp;Select or upload PDF file. Pages from PDF will be automatically added to flipbook.</p>
+<p>
+	<strong>Step 4.</strong>&nbsp;Click &#39;Save&#39;.&nbsp;</p>
+<p>
+	Flipbook created this way will load pages faster then standard PDF flipbook because it does not load PDF.js scripts or process PDF at runtime but only download JPG images.</p>
+</section>
+<section id="edit_flipbook_pages">
+	<div class="page-header"><h3>Edit Flipbook Pages</h3><hr class="notop"></div>
+<p>
+	After pages are added to flipbook you can edit each page by clicking on page thumbnail.</p>
+<p>
+	<strong>Title -&nbsp;</strong>Page title will appear in&nbsp;<strong>table of content.</strong>&nbsp;It the page title is empty the page will not be llisted in table of content.</p>
+<p>
+	<strong>HTMLContent -&nbsp;</strong>In this section you can add any HTML content to a page, that will be rendered on a separate layer on top of the page image.</p>
+<p>
+	For example you can add a link</p>
+<pre class="html" style="background-image: url(&quot;../../_img/pre_bg.png&quot;);">
+&lt;a href=&quot;http://www.codecanyon.net&quot; traget=&quot;_blank&quot;&gt;link&lt;/a&gt;</pre>
+<p>
+	you can add any inline css to the element</p>
+<pre class="html" style="background-image: url(&quot;../../_img/pre_bg.png&quot;);">
+&lt;a style=&quot;position:absolute;left:100px;top:100px;color:#00F&quot; href=&quot;http://www.codecanyon.net&quot; traget=&quot;_blank&quot;&gt;link&lt;/a&gt;</pre>
+<div class="html" style="background-image: url(&quot;../../_img/pre_bg.png&quot;);">
+	you can also add javascript functions to elements, for example&nbsp;</div>
+<pre class="html" style="background-image: url(&quot;../../_img/pre_bg.png&quot;);">
+&lt;div onclick=&quot;window.open(&#39;http://www.codecanyon.net&#39;,&#39;_blank&#39;)&quot;&gt;&lt;/div&gt;</pre>
+<p>
+	or embed iframe&nbsp;</p>
+<pre class="html" style="background-image: url(&quot;../../_img/pre_bg.png&quot;);">
+&lt;iframe width=&quot;640&quot; height=&quot;390&quot; src=&quot;https://www.youtube.com/embed/tS1NCigEB_I&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</pre>
+<p>
+	After you edited page click &#39;Save&#39;. Now you can preview flipbook by clicking &#39;Preview&#39;.</p>
+<script>
+</script><script>
+</script><script>
+</script></section>
+<section id="table_of_content">
+	<div class="page-header"><h3>Table of content</h3><hr class="notop"></div>
+<p>
+	Custom Table of content will override table of content created by page titles or pdf outline embedded in pdf. You can add elements and sub elements. Each element or subelement has properties &quot;title&quot; and &quot;page&quot;.</p>
+</section>
+<section id="general">
+	<div class="page-header"><h3>General</h3><hr class="notop"></div>
+<h4 id="general_mode">Mode</h4>
+<p>
+	How the flipbook will be embedded. Available modes are&nbsp;<strong>normal</strong>&nbsp;- embedded in a container div,&nbsp;<strong>lightbox</strong>&nbsp;- opens in fullscreen overlay on click,&nbsp;<strong>fullscreen</strong>&nbsp;- covers entire page</p>
+<h4 id="general_view_mode">View mode</h4>
+<p>
+	Available are&nbsp;<strong>webgl</strong>&nbsp;- realistic 3D page flip with lights and shadows,&nbsp;<strong>3d</strong>&nbsp;- CSS 3D flip,&nbsp;<strong>swipe</strong>&nbsp;- horizontal swipe</p>
+<h4 id="general_texture_size">Texture size</h4>
+<p>
+	The size of pdf pages in px. For mode webgl this needs to be power of 2, for other modes can be any value. Recommended 1024 - 4096</p>
+<h4 id="general_zoomed_texture_size">Zoomed texture size</h4>
+<p>
+	Override maximum zoom size which is by default equal to texture size. For example &quot;texture size&quot; is 2048, emable zoom beyond texture size with &quot;zoomed texture size&quot; : 3000</p>
+<h4 id="general_initial_zoom">Initial zoom</h4>
+<p>
+	Initial book zoom, recommended between 0.8 and 1</p>
+<h4 id="general_zoom_step">Zoom step</h4>
+<p>
+	Between 1.1 and 4</p>
+<h4 id="general_single_pagespan_style"white_space_pre"_span">Single page<span style="white-space: pre;"> </span></h4>
+<div>
+	Display one page at a time</div>
+<h4 id="general_page_flip_duration_nbspb_nbsp_b">Page flip duration&nbsp;<b>&nbsp;</b></h4>
+<div>
+	Duration of flip animation, recommended between 0.5 and 2</div>
+<h4 id="general_deep_linking_nbsp">Deep linking&nbsp;</h4>
+<p>
+	Enables to link to specific page within flipbook, for example if flipbook is at example.com, open page 2 with example.com#2</p>
+<h4 id="general_deep_linking_prefix">Deep linking prefix</h4>
+<p>
+	instead of default deeplinking hash #$page_number it can be defined custom prefix so the hash will be #$prefix$page_number. For example link to flipbook page 2:</p>
+<p>
+	myflipboook.com#2</p>
+<p>
+	link with custom prefix &quot;book1_page&quot;</p>
+<p>
+	&nbsp;myflipboook.com#book1_page2</p>
+<h4 id="general_responsive_viewspan_style"white_space_pre"_span">Responsive view<span style="white-space: pre;"> </span></h4>
+<div>
+	Switching from two page layout to one page layout if flipbook width is below certain treshold</div>
+<div>
+	<h4 id="general_responsive_viewspan_style"white_space_pre"_treshold_span">Responsive view<span style="white-space: pre;"> treshold</span></h4>
+	<div>
+		Flipbook width treshold for responsive view feature, default 480</div>
+</div>
+<h4 id="general_container_height">Container height</h4>
+<p>
+	height of the container</p>
+<h4 id="general_strongfit_to_window_strong"><strong>Fit to window</strong></h4>
+<p>
+	if the container will fit the entire screen</p>
+<h4 id="general_fit_to_parent_div">Fit to parent div</h4>
+<p>
+	if the container will fit the parent div</p>
+<h4 id="general_fit_to_height">Fit to height</h4>
+<p>
+	if the container will fit the parent div height</p>
+<h4 id="general_strongcontainer_responsive_height_strong"><strong>Container responsive height</strong></h4>
+<p>
+	if the container height will be proportional to width</p>
+<p>
+	<strong>Container aspect ratio (for responsive height)</strong></p>
+<p>
+	the ratio width / height for the responsive container,&nbsp;recommended between 1 and 2</p>
+<h4 id="general_strongright_to_left_modespan_style"white_space_pre"_span_strong"><strong>Right to left mode<span style="white-space: pre;"> </span></strong></h4>
+<div>
+	Flipping from right to left (inverted)</div>
+<h4 id="general_strongpage_widthspan_style"white_space_pre"_span_strong"><strong>Page width<span style="white-space: pre;"> </span></strong></h4>
+<div>
+	Override default page width</div>
+<h4 id="general_strongpage_heightspan_style"white_space_pre"_span_strong"><strong>Page height<span style="white-space: pre;"> </span></strong></h4>
+<div>
+	Override default page height</div>
+<h4 id="general_strongthumbnail_sizespan_style"white_space_pre"_span_strong"><strong>Thumbnail size<span style="white-space: pre;"> </span></strong></h4>
+<div>
+	Thumbnail height for thumbnails view</div>
+<h4 id="general_stronglogo_imagespan_style"white_space_pre"_span_strong"><strong>Logo image<span style="white-space: pre;"> </span></strong></h4>
+<div>
+	Logo image that will be displayed inside the flipbook container</div>
+<h4 id="general_stronglogo_linkspan_style"white_space_pre"_span_strong"><strong>Logo link<span style="white-space: pre;"> </span></strong></h4>
+<div>
+	URL that will be opened on logo click</div>
+<h4 id="general_stronglogo_cssspan_style"white_space_pre"_span_strong"><strong>Logo CSS<span style="white-space: pre;"> </span></strong></h4>
+<div>
+	Custom CSS for logo</div>
+<h4 id="general_strongmenu_css_selectorspan_style"white_space_pre"_span_strong"><strong>Menu CSS selector<span style="white-space: pre;"> </span></strong></h4>
+<div>
+	Example &quot;#menu&quot; or &quot;.navbar&quot;. Used with mode &quot;fullscreen&quot; so the flipbook will be resized correctly below the menu</div>
+<h4 id="general_container_z_indexspan_style"white_space_pre"_span">Container z-index<span style="white-space: pre;"> </span></h4>
+<div>
+	Set z-index of flipbook container</div>
+<h4 id="general_strongpreloader_textspan_style"white_space_pre"_span_strong"><strong>Preloader text<span style="white-space: pre;"> </span></strong></h4>
+<div>
+	<span style="white-space: pre;">text that will be displayed below the preloader spinner</span></div>
+<div>
+	&nbsp;</div>
+</section>
+<section id="lightbox">
+	<div class="page-header"><h3>Lightbox</h3><hr class="notop"></div>
+<h4 id="lightbox_stronglightbox_css_class_strong"><strong>Lightbox CSS class</strong></h4>
+<p>
+	Any element on the page containing flipbook shortcode that has this CSS class will trigger lightbox</p>
+<h4 id="lightbox_lightbox_overlay_css">Lightbox overlay CSS</h4>
+<p>
+	Custom CSS that will be applied on the lightbox container (element that contains lightbox thumbnail or lightbox text)</p>
+<h4 id="lightbox_stronglightbox_overlay_background_strong"><strong>Lightbox overlay background</strong></h4>
+<p>
+	Lightbox background CSS, for example hex color #999 or rgb color rgb(128,128,128) or rgba color with transparency rgba(0,0,0,0.5) or image url(&quot;images/background.jpg&quot;)</p>
+<h4 id="lightbox_stronglighbox_t_strongstronghumbnail_strongstrong_nbspurl_strong"><strong>Lighbox t</strong><strong>humbnail</strong><strong>&nbsp;url</strong></h4>
+<p>
+	image that will be added in place of shortcode and will trigger the lightbox</p>
+<h4 id="lightbox_stronglightbox_thumbnail_css_strong"><strong>Lightbox thumbnail CSS</strong></h4>
+<p>
+	custom CSS&nbsp;for thumbnail (size, shadows, border ect)&nbsp;</p>
+<h4 id="lightbox_stronglightbox_text_strong"><strong>Lightbox text</strong></h4>
+<p>
+	Text that will be put in place of the shortcode and will trigger the lightbox</p>
+<h4 id="lightbox_stronglightbox_text_css_strong"><strong>Lightbox text CSS</strong></h4>
+<p>
+	custom CSSfor the text link (size, shadows, border ect)&nbsp;</p>
+<h4 id="lightbox_stronglightbox_opens_on_start_nbsp_strong"><strong>Lightbox opens on start&nbsp;</strong></h4>
+<p>
+	If the lightbox opens immediately when the page loads</p>
+<h4 id="lightbox_stronglightbox_opens_in_fullscreen_strong"><strong>Lightbox opens in fullscreen</strong></h4>
+<p>
+	if the lightbox opening will also switch browser to fullscreen mode</p>
+<h4 id="lightbox_strongvertical_margin_strong"><strong>Vertical margin</strong></h4>
+<p>
+	Lightbox overlay vertical margin</p>
+<h4 id="lightbox_stronghorizontal_margin_strong"><strong>Horizontal margin</strong></h4>
+<p>
+	Lightbox overlay horizontal margin</p>
+</section>
+<section id="webgl">
+	<div class="page-header"><h3>WebGL</h3><hr class="notop"></div>
+<h4 id="webgl_lights">Lights</h4>
+<div>
+	Realistic lightning, disable for faster performance</div>
+<h4 id="webgl_light_pposition_x">Light pposition x</h4>
+<div>
+	Light X position, between -500 and 500</div>
+<h4 id="webgl_light_position_y">Light position y</h4>
+<div>
+	Light Y position, between -500 and 500</div>
+<h4 id="webgl_light_position_z">Light position z</h4>
+<div>
+	Light Z position, between 1000 and 2000</div>
+<h4 id="webgl_light_intensity">Light intensity</h4>
+<div>
+	Light intensity, between 0 and 1</div>
+<h4 id="webgl_shadows">Shadows</h4>
+<div>
+	Realistic page shadows, disable for faster performance</div>
+<h4 id="webgl_shadow_map_size">Shadow Map Size</h4>
+<div>
+	Shadow quality, 1024 or 2048 or 4096</div>
+<h4 id="webgl_shadow_opacity">Shadow opacity</h4>
+<div>
+	Shadow darkness, between 0 and 1</div>
+<h4 id="webgl_shadow_plane_distance">Shadow plane distance</h4>
+<div>
+	Distance of shadow from the page, between 10 and 20</div>
+<h4 id="webgl_page_hardness">Page hardness</h4>
+<div>
+	Between 1 and 5, default 2</div>
+<h4 id="webgl_cover_hardness">Cover hardness</h4>
+<p>	Between 1 and 5, default 2</p>
+<h4 id="webgl_page_material_roughness">Page material roughness</h4>
+<p>	Between 0 and 1, default 1</p>
+<h4 id="webgl_page_material_metalness">Page material metalness</h4>
+<p>	Between 0 and 1, default 0</p>
+<h4 id="webgl_page_segments_w">Page segments W</h4>
+<p>	Number of page segments horizontally, default 6</p>
+<h4 id="webgl_page_segments_h">Page segments H</h4>
+<p>	Number of page polygons vertically, default 1</p>
+<h4 id="webgl_page_middle_shadow_size">Page middle shadow size</h4>
+<p>	Shadow in the middle of the book</p>
+<h4 id="webgl_left_middle_shadow_color">Left middle shadow color</h4>
+<p>	CSS color, for example #CCC</p>
+<h4 id="webgl_right_middle_shadow_color">Right middle shadow color</h4>
+<p>	CSS color, for example #999</p>
+<h4 id="webgl_antialiasing">Antialiasing</h4>
+<p>	Disable for faster performance</p>
+<h4 id="webgl_camera_pan_angle">Camera pan angle</h4>
+<p>	Between -10 and 10</p>
+<h4 id="webgl_camera_tilt_angle">Camera tilt angle</h4>
+<p>	Between -30 and 0</p>
+<h4 id="webgl_rotate_camera_on_mouse_drag">Rotate camera on mouse drag</h4>
+<div>
+	&nbsp;</div>
+<h4 id="webgl_camera_pan_max">Camera pan max</h4>
+<div>
+	&nbsp;</div>
+<div>
+	Max pan angle for mouse drag rotate, between 0 and 20</div>
+<h4 id="webgl_camera_pan_min">Camera pan min</h4>
+<div>
+	Min pan angle for mouse drag rotate, between -20 and 0</div>
+<h4 id="webgl_camera_tilt_max">Camera tilt max</h4>
+<div>
+	Max tilt angle for mouse drag rotate, between -60 and 0</div>
+<h4 id="webgl_camera_tilt_min">Camera tilt min</h4>
+<div>
+	Min tilt angle for mouse drag rotate, between -60 and 0</div>
+<h4 id="webgl_rotate_camera_on_mouse_move">Rotate camera on mouse move</h4>
+<h4 id="webgl_camera_pan_max">Camera pan max</h4>
+<div>
+	Max pan angle for mouse drag rotate, between 0 and 5</div>
+<h4 id="webgl_camera_pan_min">Camera pan min</h4>
+<div>
+	Max pan angle for mouse drag rotate, between -5 and 0</div>
+<h4 id="webgl_camera_tilt_max">Camera tilt max</h4>
+<div>
+	Max pan angle for mouse drag rotate, between -10 and 0</div>
+<h4 id="webgl_camera_tilt_min">Camera tilt min</h4>
+<div>
+	Max pan angle for mouse drag rotate, between -10 and 0</div>
+</section>
+<section id="mobile">
+	<div class="page-header"><h3>Mobile</h3><hr class="notop"></div>
+<p>	Override default flipbook settings for mobile devices (hide some buttons on mobile, use different resolution)</p>
+<div>
+	&nbsp;</div>
+</section>
+<section id="menu">
+	<div class="page-header"><h3>Menu</h3><hr class="notop"></div>
+<p>	You can enable/disable any of the buttons in the toolbar and change icon by changing the icon css class (you can use any of the font-awesome icons, to see the full list of icons go&nbsp;<a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">here</a></p>
+</section>
+<section id="social_share_buttons">
+	<div class="page-header"><h3>Social share buttons</h3><hr class="notop"></div>
+<p>	You can add social share button by clicking button &#39;Add share button&#39; and then assign icon css class, icon name, link and target. (any font-awesome icon can be used, to see the full list of icons go&nbsp;<a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">here</a>)</p>
+</section>
+<section id="ui">
+	<div class="page-header"><h3>UI</h3><hr class="notop"></div>
+<p>
+	With UI settings you can change background and menu colors, layout and styles</p>
+<h4 id="ui_layout">Layout</h4>
+<p>
+	Choose between 4 premade UI layouts</p>
+<h4 id="ui_skin">Skin</h4>
+<p>
+	Choose between light, dark or gradient skins</p>
+<h4 id="ui_icons">Icons</h4>
+<p>
+	Choose between Font-awesome or Material icon sets</p>
+<h4 id="ui_advanced_settings">Advanced settings</h4>
+<p>
+	Override default UI layout and customize colors, sizes, margins, backgrounds of all UI elements</p>
+<div>
+	&nbsp;</div>
+</section>
+<section id="embedding">
+	<div class="page-header"><h3>Embedding</h3><hr class="notop"></div>
+<p>
+	Once you are finnished with adding pages and editing options, you need to</p>
+<ol>
+	<li>
+		save flipbook</li>
+	<li>
+		go back to the list of all your flipbook by clicking on &#39;back to flipbook list&#39; link.</li>
+	<li>
+		copy the flipbook shortcode you wish to embed. The shortcode is in form [flipbook id=&quot;ID&quot;]&nbsp;</li>
+	<li>
+		paste the shortcode anywhere in your page / post.&nbsp;</li>
+</ol>
+<p>
+	For quick testing</p>
+<ol>
+	<li>
+		create a new page</li>
+	<li>
+		paste the flipbook shortcode</li>
+	<li>
+		click &#39;preview page&#39;</li>
+</ol>
+<h3>
+	Shortcode parameters</h3>
+<p>
+	<strong>id</strong> - the id of the flipbook. The default shortcode that looks like this&nbsp;</p>
+<pre class="prettyprint lang-php linenums">
+[real3dflipbook id=&quot;1&quot;]</pre>
+<p>
+	<strong>name</strong> - the name of the flipbook. You can embed the flipbook also with name, like this</p>
+<pre class="prettyprint lang-php linenums">
+[real3dflipbook name=&quot;flipbook1&quot;]</pre>
+<p>
+	<strong>pdf</strong> - you can assign (override) the pdf url that will be displayed with flipbook</p>
+<p>
+	if you embed flipbook with shortcode&nbsp;</p>
+<pre class="prettyprint lang-php linenums">
+[real3dflipbook id=&quot;1&quot; pdf=&quot;http://www.yourwebsite.com/1.pdf&quot;]</pre>
+<p>
+	it will show the pdf file that is specified in shortcode. This enables you to create only one &quot;template&quot;&nbsp;flipbook and use it for multiple flipbook on the page.&nbsp;</p>
+<p>
+	You can use that shortcode to show multiple PDF files using the same flipbook like this</p>
+<pre class="prettyprint lang-php linenums">
+[real3dflipbook id=&quot;1&quot; pdf=&quot;http://www.yourwebsite.com/1.pdf&quot;]
+
+[real3dflipbook id=&quot;1&quot; pdf=&quot;http://www.yourwebsite.com/2.pdf&quot;]</pre>
+<p>
+	&nbsp;</p>
+<script>
+</script><script>
+</script></section>
+<section id="import_export_flipbooks">
+	<div class="page-header"><h3>Import/ Export flipbooks</h3><hr class="notop"></div>
+<h3>
+	Export to JSON</h3>
+<p>	You can export all your books as JSON. This is useful for making a backup or moving your flipbooks to another server. To export flipbooks to JSON go to plugin anmin page &#39;Flipbooks&#39; and click &#39;Export to JSON&#39;. The JSON code will be generated and you can save it to a txt file.</p>
+<h3>
+	Import from JSON</h3>
+<p>	Import from JSON will remove all your current books and import flipbooks from JSON that you enter (paste) in the input field. Before clicking &#39;Import from JSON&#39; make sure that you have your current flipbooks saved to JSON.</p>
+<h3>
+	Moving to another server</h3>
+<p>	You can easily move your flipbooks to another server.. You need to&nbsp;</p>
+<p>	1 move all assets (images, pdf-s) to new server</p>
+<p>	2 Export flipbooks to JSON</p>
+<p>	3 edit JSON- replace all paths to pages and pdf-s in json with new paths</p>
+<p>	4 on new server import from the edited JSON</p>
+<p>	&nbsp;</p>
+<script>
+</script></section>
+<section id="faq">
+	<div class="page-header"><h3>FAQ</h3><hr class="notop"></div>
+<h4 id="faq_unable_to_save_flipbook_settings_unable_to_add_new_flipbook">Unable to save flipbook settings / unable to add new flipbook</h4>
+<p>
+	Increase max_input_vars in your php.ini from default 1000 to higher value, for example 3000 and restart server. If you don&rsquo;t find max_input_vars in your php.ini file then add it like this</p>
+<pre class="prettyprint lang-plain linenums">
+max_input_vars=3000</pre>
+<p>
+	save and restart server. Make sure that max_input_vars in not commented out with semicolon at the beginning of the line like this</p>
+<pre class="prettyprint lang-plain linenums">
+;max_input_vars=3000</pre>
+<p>
+	&nbsp;</p>
+<h4 id="faq_plugin_installation_failed">Plugin installation failed</h4>
+<p>
+	You uploaded the zip that is not valid WordPress plugin (wrong zip file). You need to upload real3dflipbook.zip.</p>
+<p>
+	&nbsp;</p>
+<h4 id="faq_pdf_flipbook_loads_for_long_time">PDF Flipbook loads for long time</h4>
+<p>
+	Make sure your server supports range requests. That is required so PDF pages can be rendered before entire PDF is downloaded.&nbsp;</p>
+<p>
+	&nbsp;</p>
+<h4 id="faq_jpg_flipbook_loads_for_long_time">JPG Flipbook loads for long time</h4>
+<p>
+	Optimize JPG-s for web use. Images should be 200-300kb in size and maximum 2000 - 3000 px in height.</p>
+<p>
+	&nbsp;</p>
+<h4 id="faq_can_i_load_a_pdf_images_from_another_server_cross_domain_request_">Can I load a PDF/images from another server (cross domain request)?</h4>
+<div>
+	By default PDF and images needs to be on the same server. To use resources from another domain you need to add Access-Control-Allow-Origin header to server response, for example to allow http://foo.example to load the resources you need to add header</div>
+<div>
+	&nbsp;</div>
+<pre class="prettyprint lang-plain linenums">
+Access-Control-Allow-Origin: http://foo.example</pre>
+<p>
+	&nbsp;</p>
+<h4 id="faq_flipbook_is_not_working">Flipbook is not working</h4>
+<div>
+	Please check your browser console for errors. In most cases the problem is that flipbook has no PDF/images specified, or is trying to load PDF/images from another domain. There might also be other javascript errors on the page, coming from another plugin. Try to disable other plugins to see if another plugin is causing the problem.</div>
+<div>
+	&nbsp;</div>
+<div>
+	<h4 id="faq_updating_to_latest_version">Updating to latest version</h4>
+	<div>
+		<strong>Step 1.</strong>&nbsp;Re-download the plugin from your Codecanyon downloads page</div>
+	<div>
+		<strong>Step 2.</strong>&nbsp;Uninstall the current version</div>
+	<div>
+		<strong>Step 3.</strong>&nbsp;Install the new version</div>
+</div>
+<div>
+	&nbsp;</div>
+<script>
+</script></section>
+<section id="">
+	<div class="page-header"><h3></h3><hr class="notop"></div>
+</section>
+
+
+
+    <hr />
+
+<footer>
+    <p>Copyright creativeinteractivemedia 2019 made with the <a href="http://rxa.li/documenter">Documenter v2.0</a></p>
+</footer>
+
+</div><!-- /container --> 
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script>document.createElement('section');var duration='500',easing='swing';</script>
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/jquery.scrollTo.js"></script>
+<script src="assets/js/jquery.easing.js"></script>
+<script src="assets/js/scripts.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap-min.js"></script> 
+</body>
+</html>

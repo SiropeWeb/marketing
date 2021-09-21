@@ -1,0 +1,2834 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kadence Woo Extras\n"
+"POT-Creation-Date: 2020-11-12 00:27-0700\n"
+"PO-Revision-Date: 2015-05-08 13:15-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr_e;esc_attr__;esc_html__;"
+"esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin/options_assets/extensions/"
+"vendor_support\n"
+"X-Poedit-SearchPathExcluded-1: admin/redux\n"
+
+#: admin/admin_options.php:28
+msgid "Woo Extras"
+msgstr ""
+
+#: admin/admin_options.php:29
+msgid "Kadence Woocommerce Extras"
+msgstr ""
+
+#: admin/admin_options.php:47
+msgid ""
+"Thank you for using Kadence Woocommerce Extras by <a href=\"https://"
+"kadencewp.com/\" target=\"_blank\">Kadence WP</a>."
+msgstr ""
+
+#: admin/admin_options.php:109 lib/swatches/kt-variations-swatches.php:23
+msgid "Variation Swatches"
+msgstr ""
+
+#: admin/admin_options.php:115
+msgid "Enable swatches control with variations"
+msgstr ""
+
+#: admin/admin_options.php:116
+msgid "This allows you to display images or colors for variation choices"
+msgstr ""
+
+#: admin/admin_options.php:122
+msgid "Choose a default swatch type"
+msgstr ""
+
+#: admin/admin_options.php:124
+msgid "Dropdown Select Box"
+msgstr ""
+
+#: admin/admin_options.php:125
+msgid "Radio Boxes"
+msgstr ""
+
+#: admin/admin_options.php:126
+msgid "Image and Color swatchs"
+msgstr ""
+
+#: admin/admin_options.php:127 lib/swatches/kt-variations-swatches.php:117
+msgid "Taxonomy defined"
+msgstr ""
+
+#: admin/admin_options.php:129 admin/admin_options.php:138
+#: admin/admin_options.php:153
+msgid "This can be overridden in each product."
+msgstr ""
+
+#: admin/admin_options.php:137
+msgid "Choose a default swatch label option"
+msgstr ""
+
+#: admin/admin_options.php:140 lib/swatches/kt-variations-swatches.php:136
+msgid "No label"
+msgstr ""
+
+#: admin/admin_options.php:141 lib/swatches/kt-variations-swatches.php:137
+msgid "Show above"
+msgstr ""
+
+#: admin/admin_options.php:142 lib/swatches/kt-variations-swatches.php:138
+msgid "Show below"
+msgstr ""
+
+#: admin/admin_options.php:143 lib/swatches/kt-variations-swatches.php:139
+msgid "Show above on hover"
+msgstr ""
+
+#: admin/admin_options.php:152
+msgid "Choose a default swatch size option"
+msgstr ""
+
+#: admin/admin_options.php:155 lib/swatches/kt-variations-swatches.php:151
+msgid "16x16px"
+msgstr ""
+
+#: admin/admin_options.php:156 lib/swatches/kt-variations-swatches.php:152
+msgid "30x30px"
+msgstr ""
+
+#: admin/admin_options.php:157 lib/swatches/kt-variations-swatches.php:153
+msgid "40x40px"
+msgstr ""
+
+#: admin/admin_options.php:158 lib/swatches/kt-variations-swatches.php:154
+msgid "50x50px"
+msgstr ""
+
+#: admin/admin_options.php:159 lib/swatches/kt-variations-swatches.php:155
+msgid "60x60px"
+msgstr ""
+
+#: admin/admin_options.php:160 lib/swatches/kt-variations-swatches.php:156
+msgid "75x75px"
+msgstr ""
+
+#: admin/admin_options.php:161 lib/swatches/kt-variations-swatches.php:157
+msgid "90x90px"
+msgstr ""
+
+#: admin/admin_options.php:162 lib/swatches/kt-variations-swatches.php:158
+msgid "120x120px"
+msgstr ""
+
+#: admin/admin_options.php:163 lib/swatches/kt-variations-swatches.php:159
+msgid "150x150px"
+msgstr ""
+
+#: admin/admin_options.php:172
+msgid "Dropdown \"Choose an option\" text"
+msgstr ""
+
+#: admin/admin_options.php:173
+msgid "Standard: Choose an option"
+msgstr ""
+
+#: admin/admin_options.php:186
+msgid "Product Gallery"
+msgstr ""
+
+#: admin/admin_options.php:192
+msgid "Enable Product Slider Gallery"
+msgstr ""
+
+#: admin/admin_options.php:193
+msgid "This changes the woocommerce product image and gallery into a slider"
+msgstr ""
+
+#: admin/admin_options.php:199
+msgid "Choose a gallery type"
+msgstr ""
+
+#: admin/admin_options.php:220
+msgid "Product image width"
+msgstr ""
+
+#: admin/admin_options.php:231
+msgid "Product image ratio"
+msgstr ""
+
+#: admin/admin_options.php:233 admin/admin_options.php:271
+msgid "Square 1:1"
+msgstr ""
+
+#: admin/admin_options.php:234 admin/admin_options.php:272
+msgid "Portrait 3:4"
+msgstr ""
+
+#: admin/admin_options.php:235 admin/admin_options.php:273
+msgid "Landscape 4:3"
+msgstr ""
+
+#: admin/admin_options.php:236 admin/admin_options.php:274
+msgid "Landscape 3:2"
+msgstr ""
+
+#: admin/admin_options.php:237 admin/admin_options.php:275
+msgid "Wide Landscape 4:2"
+msgstr ""
+
+#: admin/admin_options.php:238
+msgid "Custom"
+msgstr ""
+
+#: admin/admin_options.php:247
+msgid "Product image Height"
+msgstr ""
+
+#: admin/admin_options.php:258
+msgid "Select how many thumbnail columns are visible at a time"
+msgstr ""
+
+#: admin/admin_options.php:269
+msgid "Product thumbnail image ratio"
+msgstr ""
+
+#: admin/admin_options.php:276
+msgid "Inherit from image"
+msgstr ""
+
+#: admin/admin_options.php:285
+msgid "Slider transition"
+msgstr ""
+
+#: admin/admin_options.php:287
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:48
+msgid "Slide"
+msgstr ""
+
+#: admin/admin_options.php:288
+msgid "Fade"
+msgstr ""
+
+#: admin/admin_options.php:297
+msgid "Slider transition speed"
+msgstr ""
+
+#: admin/admin_options.php:298
+msgid "How long the transition takes, in milliseconds."
+msgstr ""
+
+#: admin/admin_options.php:308
+msgid "Slider auto play"
+msgstr ""
+
+#: admin/admin_options.php:310 admin/admin_options.php:333
+#: admin/admin_options.php:345 lib/reviews/reviews.php:977
+#: lib/sizechart/kt-size-chart.php:553
+msgid "False"
+msgstr ""
+
+#: admin/admin_options.php:311 admin/admin_options.php:334
+#: admin/admin_options.php:346 lib/reviews/reviews.php:978
+#: lib/sizechart/kt-size-chart.php:552
+msgid "True"
+msgstr ""
+
+#: admin/admin_options.php:320
+msgid "Slider pause time"
+msgstr ""
+
+#: admin/admin_options.php:321
+msgid "How long to pause on each slide, in milliseconds."
+msgstr ""
+
+#: admin/admin_options.php:331
+msgid "Show slide arrows on product image?"
+msgstr ""
+
+#: admin/admin_options.php:343
+msgid "Show Caption overlay on images"
+msgstr ""
+
+#: admin/admin_options.php:355
+msgid "Enable Product Image Hover Zoom"
+msgstr ""
+
+#: admin/admin_options.php:356
+msgid ""
+"This allows you to magnify product images without having to click to a "
+"lightbox. Note that slider arrows do not show with zoom on."
+msgstr ""
+
+#: admin/admin_options.php:363
+msgid "Show image magnification on top of image or beside image?"
+msgstr ""
+
+#: admin/admin_options.php:365
+msgid "Magnify window is beside of image"
+msgstr ""
+
+#: admin/admin_options.php:366
+msgid "Magnify window is on top of image"
+msgstr ""
+
+#: admin/admin_options.php:384 lib/cartnotice/kt-cart-notice.php:82
+#: lib/cartnotice/kt-cart-notice.php:83
+msgid "Cart Notices"
+msgstr ""
+
+#: admin/admin_options.php:390
+msgid "Enable Cart Notices"
+msgstr ""
+
+#: admin/admin_options.php:391
+msgid ""
+"This gives you options to add specialized notices to the cart page to entice "
+"with specials and upsell products"
+msgstr ""
+
+#: admin/admin_options.php:403
+msgid "Size Charts"
+msgstr ""
+
+#: admin/admin_options.php:409
+msgid "Enable Size Charts"
+msgstr ""
+
+#: admin/admin_options.php:421
+msgid "Variation Options"
+msgstr ""
+
+#: admin/admin_options.php:427
+msgid " Customize variation price output"
+msgstr ""
+
+#: admin/admin_options.php:432
+msgid "Variation Price Output"
+msgstr ""
+
+#: admin/admin_options.php:434
+msgid "Show Price Range ($lowest - $highest)"
+msgstr ""
+
+#: admin/admin_options.php:435
+msgid "Show lowest price only"
+msgstr ""
+
+#: admin/admin_options.php:436
+msgid "Show highest price only"
+msgstr ""
+
+#: admin/admin_options.php:444
+msgid "Archive Text Before Variation Price"
+msgstr ""
+
+#: admin/admin_options.php:445
+msgid "Example: From:"
+msgstr ""
+
+#: admin/admin_options.php:451
+msgid "Archive Text After Variation Price"
+msgstr ""
+
+#: admin/admin_options.php:452
+msgid "Example: Base Price"
+msgstr ""
+
+#: admin/admin_options.php:464
+msgid "Add to cart text"
+msgstr ""
+
+#: admin/admin_options.php:470
+msgid "Enable Custom add to cart text"
+msgstr ""
+
+#: admin/admin_options.php:471
+msgid "This allows you to change the text for the add to cart buttons"
+msgstr ""
+
+#: admin/admin_options.php:477
+msgid "Archive Add to Cart"
+msgstr ""
+
+#: admin/admin_options.php:483
+msgid "Simple Product"
+msgstr ""
+
+#: admin/admin_options.php:484 admin/admin_options.php:518
+msgid "Default: Add to cart"
+msgstr ""
+
+#: admin/admin_options.php:490
+msgid "Variable Product"
+msgstr ""
+
+#: admin/admin_options.php:491
+msgid "Default: Select options"
+msgstr ""
+
+#: admin/admin_options.php:497
+msgid "Grouped Product"
+msgstr ""
+
+#: admin/admin_options.php:498
+msgid "Default: View Products"
+msgstr ""
+
+#: admin/admin_options.php:504
+msgid "Out of Stock Product"
+msgstr ""
+
+#: admin/admin_options.php:505
+msgid "Default: Read More"
+msgstr ""
+
+#: admin/admin_options.php:511
+msgid "Single Add to Cart"
+msgstr ""
+
+#: admin/admin_options.php:517
+msgid "All Products"
+msgstr ""
+
+#: admin/admin_options.php:530
+msgid "Extra Category Description"
+msgstr ""
+
+#: admin/admin_options.php:536
+msgid "Enable Extra Category Description Box"
+msgstr ""
+
+#: admin/admin_options.php:537
+msgid ""
+"This gives you an extra description box for each category to allow you to "
+"place content below the products on your category page"
+msgstr ""
+
+#: admin/admin_options.php:549
+msgid "Advanced Reviews"
+msgstr ""
+
+#: admin/admin_options.php:555
+msgid "Enable Advanced Reviews"
+msgstr ""
+
+#: admin/admin_options.php:556
+msgid ""
+"This allows you to change the review order as well as have titles and vote "
+"on reviews."
+msgstr ""
+
+#: admin/admin_options.php:562
+msgid "Select Review Order"
+msgstr ""
+
+#: admin/admin_options.php:564
+msgid "Order by most helpful with fallback newest first"
+msgstr ""
+
+#: admin/admin_options.php:565
+msgid "Newest First"
+msgstr ""
+
+#: admin/admin_options.php:566
+msgid "Oldest First"
+msgstr ""
+
+#: admin/admin_options.php:575
+msgid "Enable Review Titles"
+msgstr ""
+
+#: admin/admin_options.php:576
+msgid "This allows you to have titles for reviews."
+msgstr ""
+
+#: admin/admin_options.php:583
+msgid "Enable Review Consent Checkbox"
+msgstr ""
+
+#: admin/admin_options.php:584
+msgid "This adds a consent to privacy policy checkbox"
+msgstr ""
+
+#: admin/admin_options.php:591
+msgid "When using polylang or WPML show reviews in every language."
+msgstr ""
+
+#: admin/admin_options.php:598
+msgid "Enable Review Voting"
+msgstr ""
+
+#: admin/admin_options.php:599
+msgid "This allows users to upvote reviews that are more helpful."
+msgstr ""
+
+#: admin/admin_options.php:606
+msgid "Voters must be logged in?"
+msgstr ""
+
+#: admin/admin_options.php:607
+msgid "With this turned on only logged in users will be able to vote."
+msgstr ""
+
+#: admin/admin_options.php:614
+msgid "Show Review Overview?"
+msgstr ""
+
+#: admin/admin_options.php:615
+msgid "With this turned on there will be overview of all reviews."
+msgstr ""
+
+#: admin/admin_options.php:623
+msgid "Overview highlight color"
+msgstr ""
+
+#: admin/admin_options.php:632
+msgid "Enabled Featured Reviews"
+msgstr ""
+
+#: admin/admin_options.php:633
+msgid ""
+"With this turned on you can set reviews to be featured and show at the top "
+"of your list."
+msgstr ""
+
+#: admin/admin_options.php:640
+msgid "Enabled Load More for Reviews"
+msgstr ""
+
+#: admin/admin_options.php:641
+msgid ""
+"With this turned on reviews will only load the inital amount and a load more "
+"button will show."
+msgstr ""
+
+#: admin/admin_options.php:648
+msgid "Read More Reviews Button Text"
+msgstr ""
+
+#: admin/admin_options.php:649
+msgid "Default: Read More Reviews"
+msgstr ""
+
+#: admin/admin_options.php:658
+msgid "Load More inital and per load amount"
+msgstr ""
+
+#: admin/admin_options.php:672
+msgid "Convert previous reviews to Advanced Reviews"
+msgstr ""
+
+#: admin/admin_options.php:673
+msgid "This will make convert all your previous reviews into advanced."
+msgstr ""
+
+#: admin/admin_options.php:686
+msgid "Checkout Editor"
+msgstr ""
+
+#: admin/admin_options.php:692
+msgid "Enable Checkout Fields Editor"
+msgstr ""
+
+#: admin/admin_options.php:693
+msgid ""
+"This gives you total control over your checkout fields and allows you to add "
+"custom fields. Controls at woocommerce > checkout manager."
+msgstr ""
+
+#: admin/admin_options.php:705
+msgid "Affiliate Product Options"
+msgstr ""
+
+#: admin/admin_options.php:711
+msgid "Enable Affiliate Options"
+msgstr ""
+
+#: admin/admin_options.php:712
+msgid ""
+"This gives you control to add direct links for product images and archive "
+"action buttons."
+msgstr ""
+
+#: admin/admin_options.php:718
+msgid "Product Archive Settings"
+msgstr ""
+
+#: admin/admin_options.php:724 admin/admin_options.php:770
+msgid "Enable Affiliate link for Product Images"
+msgstr ""
+
+#: admin/admin_options.php:725
+msgid ""
+"This makes the product image link to the affilate instead of the single "
+"product page."
+msgstr ""
+
+#: admin/admin_options.php:732 admin/admin_options.php:778
+msgid "Enable Affiliate Product Image link to opens new browser tab"
+msgstr ""
+
+#: admin/admin_options.php:733 admin/admin_options.php:779
+msgid "This makes the product image link open a new tab."
+msgstr ""
+
+#: admin/admin_options.php:740
+msgid "Enable Affiliate link for Product Title"
+msgstr ""
+
+#: admin/admin_options.php:741
+msgid ""
+"This makes the product title link to the affilate instead of the single "
+"product page."
+msgstr ""
+
+#: admin/admin_options.php:748
+msgid "Enable Affiliate Product Title link to opens new browser tab"
+msgstr ""
+
+#: admin/admin_options.php:749
+msgid "This makes the product title link open a new tab."
+msgstr ""
+
+#: admin/admin_options.php:756 admin/admin_options.php:786
+msgid "Enable Affiliate Button link to open new browser tab"
+msgstr ""
+
+#: admin/admin_options.php:757 admin/admin_options.php:787
+msgid "This makes the product button link open a new tab."
+msgstr ""
+
+#: admin/admin_options.php:764
+msgid "Product Single Settings"
+msgstr ""
+
+#: admin/admin_options.php:771
+msgid ""
+"This makes the product image link to the affiliate instead of the lightbox."
+msgstr ""
+
+#: admin/admin_options.php:800 lib/brands/class-kt-extra-brands.php:297
+msgid "Product Brands"
+msgstr ""
+
+#: admin/admin_options.php:806
+msgid "Enable Product Brands Options"
+msgstr ""
+
+#: admin/admin_options.php:807
+msgid "This adds a new Taxonomy for Products"
+msgstr ""
+
+#: admin/admin_options.php:813
+msgid "Singular Custom Name"
+msgstr ""
+
+#: admin/admin_options.php:814
+msgid "Default: Product Brand"
+msgstr ""
+
+#: admin/admin_options.php:820
+msgid "Plural Custom Name"
+msgstr ""
+
+#: admin/admin_options.php:821
+msgid "Default: Product Brands"
+msgstr ""
+
+#: admin/admin_options.php:827
+msgid "URL Custom slug"
+msgstr ""
+
+#: admin/admin_options.php:828
+msgid "Default: product-brands (lowercase, no spaces)"
+msgstr ""
+
+#: admin/admin_options.php:834
+msgid "Product Brands Single Output settings"
+msgstr ""
+
+#: admin/admin_options.php:840
+msgid "Single Product Page Output"
+msgstr ""
+
+#: admin/admin_options.php:842 admin/admin_options.php:918
+#: classes/custom_functions.php:206 cmb/includes/CMB2_Field.php:1448
+#: cmb/includes/CMB2_Field.php:1452
+msgid "None"
+msgstr ""
+
+#: admin/admin_options.php:843
+msgid "Above Title"
+msgstr ""
+
+#: admin/admin_options.php:844
+msgid "Below Title, Above Price"
+msgstr ""
+
+#: admin/admin_options.php:845
+msgid "Below Price, Above Short Description"
+msgstr ""
+
+#: admin/admin_options.php:846
+msgid "Below Short Description, Above Add to cart"
+msgstr ""
+
+#: admin/admin_options.php:847
+msgid "Below Add to cart, Above meta content"
+msgstr ""
+
+#: admin/admin_options.php:848
+msgid "Below meta content"
+msgstr ""
+
+#: admin/admin_options.php:857 admin/admin_options.php:933
+msgid "Show as text or image"
+msgstr ""
+
+#: admin/admin_options.php:859 admin/admin_options.php:935
+#: lib/brands/class-kt-extra-brands.php:584
+#: lib/swatches/kt-variations-swatches.php:235
+#: lib/swatches/kt-variations-swatches.php:283
+#: lib/swatches/kt-variations-swatches.php:301
+#: lib/swatches/kt-variations-swatches.php:377
+msgid "Image"
+msgstr ""
+
+#: admin/admin_options.php:860 admin/admin_options.php:936
+msgid "Text"
+msgstr ""
+
+#: admin/admin_options.php:869
+msgid "Single Product Page Brand Image Width"
+msgstr ""
+
+#: admin/admin_options.php:880 admin/admin_options.php:956
+msgid "Enable to Hard Crop Image"
+msgstr ""
+
+#: admin/admin_options.php:881 admin/admin_options.php:957
+msgid "If enabled you can force a specific height to hard crop to."
+msgstr ""
+
+#: admin/admin_options.php:888
+msgid "Single Product Page Brand Image Height"
+msgstr ""
+
+#: admin/admin_options.php:902 admin/admin_options.php:978
+msgid "Link Image to Brand Page"
+msgstr ""
+
+#: admin/admin_options.php:903 admin/admin_options.php:979
+msgid "Adds Link to brand archive page from image."
+msgstr ""
+
+#: admin/admin_options.php:910
+msgid "Product Brands Archive Output settings"
+msgstr ""
+
+#: admin/admin_options.php:916
+msgid "Archive Page Output"
+msgstr ""
+
+#: admin/admin_options.php:919
+msgid "Above image"
+msgstr ""
+
+#: admin/admin_options.php:920
+msgid "Below image, Above title"
+msgstr ""
+
+#: admin/admin_options.php:921
+msgid "Below title, Above excerpt"
+msgstr ""
+
+#: admin/admin_options.php:922
+msgid "Below excerpt, Above price"
+msgstr ""
+
+#: admin/admin_options.php:923
+msgid "Below price, Above add to cart"
+msgstr ""
+
+#: admin/admin_options.php:924
+msgid "Below add to cart"
+msgstr ""
+
+#: admin/admin_options.php:945
+msgid "Archive Page Brand Image Width"
+msgstr ""
+
+#: admin/admin_options.php:964
+msgid "Archive Page Brand Image Height"
+msgstr ""
+
+#: admin/admin_options.php:993
+msgid "Checkout Coupon Modal"
+msgstr ""
+
+#: admin/admin_options.php:999
+msgid "Enable Coupon Checkout Modal."
+msgstr ""
+
+#: admin/admin_options.php:1000
+msgid ""
+"This allows you to display the coupon input field as a link in the order "
+"overview and opens a modal to input coupon."
+msgstr ""
+
+#: admin/admin_options.php:1006
+msgid "Coupon Modal Link Placement"
+msgstr ""
+
+#: admin/admin_options.php:1008
+msgid "Before Order Review"
+msgstr ""
+
+#: admin/admin_options.php:1009
+msgid "In Order Review table before total"
+msgstr ""
+
+#: admin/admin_options.php:1010
+msgid "In Order Review table after total"
+msgstr ""
+
+#: admin/admin_options.php:1011
+msgid "Between Order Review and Payment"
+msgstr ""
+
+#: admin/admin_options.php:1012
+msgid "After Payment"
+msgstr ""
+
+#: admin/admin_options.php:1021
+msgid "Pre Modal Link Text"
+msgstr ""
+
+#: admin/admin_options.php:1022
+msgid "Standard: Have a promo code?"
+msgstr ""
+
+#: admin/admin_options.php:1023 lib/checkout_coupon/kt-checkout-coupon.php:26
+msgid "Have a promo code?"
+msgstr ""
+
+#: admin/admin_options.php:1029
+msgid "Modal Link Text"
+msgstr ""
+
+#: admin/admin_options.php:1030
+msgid "Standard: Click here to enter your code."
+msgstr ""
+
+#: admin/admin_options.php:1031 lib/checkout_coupon/kt-checkout-coupon.php:27
+msgid "Click here to enter your code."
+msgstr ""
+
+#: admin/admin_options.php:1037
+msgid "Modal Description"
+msgstr ""
+
+#: admin/admin_options.php:1038
+msgid "Standard: If you have a promo code, please apply it below."
+msgstr ""
+
+#: admin/admin_options.php:1039 lib/checkout_coupon/kt-checkout-coupon.php:72
+msgid "If you have a promo code, please apply it below."
+msgstr ""
+
+#: admin/admin_options.php:1045
+msgid "Input Placeholder"
+msgstr ""
+
+#: admin/admin_options.php:1046
+msgid "Standard: Promo code"
+msgstr ""
+
+#: admin/admin_options.php:1047 lib/checkout_coupon/kt-checkout-coupon.php:73
+msgid "Promo code"
+msgstr ""
+
+#: admin/admin_options.php:1053
+msgid "Apply Button"
+msgstr ""
+
+#: admin/admin_options.php:1054
+msgid "Standard: Apply Code"
+msgstr ""
+
+#: admin/admin_options.php:1055 lib/checkout_coupon/kt-checkout-coupon.php:74
+msgid "Apply Code"
+msgstr ""
+
+#: admin/admin_options.php:1067
+msgid "Global Tabs"
+msgstr ""
+
+#: admin/admin_options.php:1073
+msgid "Enable Global Tabs"
+msgstr ""
+
+#: admin/admin_options.php:1074
+msgid "This allows you to create tabs and apply them globally to products"
+msgstr ""
+
+#: admin/admin_options.php:1080
+msgid "Find Global Tabs under the \"Products\" Menu item in your admin."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:165
+#: admin/kadence-activation/kadence-plugin-api-manager.php:171
+msgid "The following plugins have not been activated: "
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:165
+#: admin/kadence-activation/kadence-plugin-api-manager.php:171
+msgid "Click here to activate."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:358
+#, php-format
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get certain plugin updates. Please add %s to %s."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:386
+msgid "Kadence Plugin Activation."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:389
+#, php-format
+msgid ""
+"Activating your license allows for plugin updates. If you need your api key "
+"you will find it by logging in to your %s Kadence WP account%s."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:394
+msgid "Activated"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:396
+msgid "Could Not Activate"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:398
+msgid "Deactivated"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:400
+msgid "Could Not Deactivate, Try again."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:413
+msgid "Kadence Membership activated through theme"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:414
+msgid " Status: Active"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:421
+#: admin/kadence-activation/kadence-plugin-api-manager.php:429
+msgid "Activate"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:438
+#: admin/kadence-activation/kadence-plugin-api-manager.php:444
+msgid "Deactivate"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:518
+msgid "API License Activation"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:520
+msgid "API License Key"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:521
+msgid "API License Email"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:526
+msgid "Check box to deactivate API License key"
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:656
+msgid "Missing API Key, PLease add. "
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:660
+msgid "Missing API Email, PLease add. "
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:672
+msgid "Plugin activated."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:682
+#: admin/kadence-activation/kadence-plugin-api-manager.php:766
+msgid ""
+"Connection failed to the License Key API server. Make sure your host servers "
+"php version has the curl module installed and enabled."
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:740
+msgid "Please check box to deactivate. "
+msgstr ""
+
+#: admin/kadence-activation/kadence-plugin-api-manager.php:760
+#: admin/kadence-activation/kadence-plugin-api-manager.php:809
+msgid "License deactivated."
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/extension_advanced_customizer.php:735
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/extension_advanced_customizer.php:736
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/extension_advanced_customizer.php:737
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/extension_advanced_customizer.php:770
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/extension_advanced_customizer.php:771
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/extension_advanced_customizer.php:772
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/inc/advanced_customizer_panel.php:54
+#: admin/options_assets/extensions/advanced_customizer/inc/advanced_customizer_panel.php:78
+msgid "Press return or enter to open this panel"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/inc/advanced_customizer_section.php:35
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/inc/advanced_customizer_section.php:37
+msgid "Customizing"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/inc/advanced_customizer_section.php:61
+msgid "Press return or enter to open"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/inc/advanced_customizer_section.php:67
+msgid "Back"
+msgstr ""
+
+#: admin/options_assets/extensions/advanced_customizer/inc/advanced_customizer_section.php:106
+msgid "Press return or enter to expand"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:50
+msgid "Icon"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:55
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:53
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:110
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:178
+msgid "Upload Icon"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:116
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:180
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:115
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:161
+#: cmb/includes/CMB2_JS.php:229 cmb/includes/CMB2_Types.php:406
+#: cmb/includes/types/CMB2_Type_File_Base.php:84
+#: lib/checkout_editor/kt-checkout-editor.php:336
+msgid "Remove"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:119
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:184
+msgid "Select an Icon"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:139
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:203
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:121
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:166
+msgid "URL"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:140
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:205
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:122
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:168
+#: lib/brands/class-kt-filter-by-brand-widget.php:34
+#: lib/brands/class-kt-product-brand-widget.php:40
+msgid "Title"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:141
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:207
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:123
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:170
+msgid "Description"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:142
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:209
+msgid "Icon Link"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:146
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:214
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:128
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:177
+msgid "Open Link in New Tab/Window"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:156
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:223
+msgid "Delete Icon"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_icons/kad_icons/field_kad_icons.php:226
+msgid "Add Icon"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:108
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:159
+msgid "Upload"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:124
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:172
+msgid "Slide Link"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:137
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:185
+msgid "Delete Slide"
+msgstr ""
+
+#: admin/options_assets/extensions/kad_slides/kad_slides/field_kad_slides.php:188
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: classes/custom_functions.php:177
+msgid "Select a Coupon"
+msgstr ""
+
+#: classes/custom_functions.php:187
+msgid "Select a Product"
+msgstr ""
+
+#: classes/taxonomy-meta-class.php:274 classes/taxonomy-meta-class.php:301
+msgid "Delete"
+msgstr ""
+
+#: classes/taxonomy-meta-class.php:281
+msgid "Select File"
+msgstr ""
+
+#: classes/taxonomy-meta-class.php:308
+msgid "Select Image"
+msgstr ""
+
+#: cmb/includes/CMB2.php:199
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr ""
+
+#: cmb/includes/CMB2.php:603
+msgid "Click to toggle"
+msgstr ""
+
+#: cmb/includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr ""
+
+#: cmb/includes/CMB2_Ajax.php:181
+msgid "Remove Embed"
+msgstr ""
+
+#: cmb/includes/CMB2_Ajax.php:189 cmb/includes/helper-functions.php:107
+#, php-format
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
+msgstr ""
+
+#: cmb/includes/CMB2_Base.php:422
+#, php-format
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%2$s\" "
+"parameter."
+msgstr ""
+
+#: cmb/includes/CMB2_Base.php:426
+#, php-format
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%2$s\" parameter."
+msgstr ""
+
+#: cmb/includes/CMB2_Base.php:456
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+
+#: cmb/includes/CMB2_Base.php:458
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+
+#: cmb/includes/CMB2_Base.php:491 cmb/includes/CMB2_Hookup_Base.php:102
+#: cmb/includes/CMB2_Options.php:247 cmb/includes/CMB2_Options_Hookup.php:357
+#: cmb/includes/types/CMB2_Type_Base.php:173
+#, php-format
+msgid "Invalid %1$s property: %2$s"
+msgstr ""
+
+#: cmb/includes/CMB2_Base.php:509 cmb/includes/types/CMB2_Type_Base.php:157
+#, php-format
+msgid "Invalid %1$s method: %2$s"
+msgstr ""
+
+#: cmb/includes/CMB2_Field.php:1415
+msgid "Add Group"
+msgstr ""
+
+#: cmb/includes/CMB2_Field.php:1416
+msgid "Remove Group"
+msgstr ""
+
+#: cmb/includes/CMB2_Field.php:1563
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr ""
+
+#: cmb/includes/CMB2_Field_Display.php:432 cmb/includes/CMB2_JS.php:230
+#: cmb/includes/types/CMB2_Type_File_Base.php:79
+msgid "File:"
+msgstr ""
+
+#: cmb/includes/CMB2_Hookup_Base.php:44
+#, php-format
+msgid "%1$s should be implemented by the extended class."
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:165 cmb/includes/CMB2_JS.php:210
+msgid "Clear"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:166 lib/swatches/kt-variations-swatches.php:113
+#: lib/swatches/kt-variations-swatches.php:135
+#: lib/swatches/kt-variations-swatches.php:150
+msgid "Default"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:167
+msgid "Select Color"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:168
+msgid "Current Color"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:201
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:202
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:203
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:204
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:205
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:206
+msgid "Next"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:207
+msgid "Prev"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:208
+msgid "Today"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:209 cmb/includes/CMB2_JS.php:219
+msgid "Done"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:213
+msgid "Choose Time"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:214
+msgid "Time"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:215
+msgid "Hour"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:216
+msgid "Minute"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:217
+msgid "Second"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:218
+msgid "Now"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:226
+msgid "Use this file"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:227
+msgid "Use these files"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:228 cmb/includes/types/CMB2_Type_File_Base.php:64
+msgid "Remove Image"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:231 cmb/includes/types/CMB2_Type_File_Base.php:82
+msgid "Download"
+msgstr ""
+
+#: cmb/includes/CMB2_JS.php:232
+msgid "Select / Deselect All"
+msgstr ""
+
+#: cmb/includes/CMB2_Options_Hookup.php:139
+msgid "Nothing to update."
+msgstr ""
+
+#: cmb/includes/CMB2_Options_Hookup.php:143
+msgid "Settings updated."
+msgstr ""
+
+#: cmb/includes/CMB2_Types.php:226
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr ""
+
+#: cmb/includes/CMB2_Types.php:344
+msgid "Add Row"
+msgstr ""
+
+#: cmb/includes/CMB2_Types.php:406
+msgid "Remove Row"
+msgstr ""
+
+#: cmb/includes/CMB2_hookup.php:182
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+
+#: cmb/includes/CMB2_hookup.php:186
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr ""
+
+#: cmb/includes/CMB2_hookup.php:466
+#, php-format
+msgid "Toggle panel: %s"
+msgstr ""
+
+#: cmb/includes/helper-functions.php:307
+msgid "Save"
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller.php:277
+msgid "This box does not have write permissions."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller.php:300
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller.php:378
+msgid "A human-readable description of the object."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller.php:385
+msgid "The id for the object."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller.php:392
+msgid "The title for the object."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+msgid "No boxes found."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:297
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:312
+#: cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:341
+msgid "No field found by that id."
+msgstr ""
+
+#: cmb/includes/rest-api/CMB2_REST_Controller_Fields.php:415
+#, php-format
+msgid "Value Error for %s"
+msgstr ""
+
+#: cmb/includes/shim/WP_REST_Controller.php:25
+#, php-format
+msgid "Method '%s' must be overridden."
+msgstr ""
+
+#: cmb/includes/shim/WP_REST_Controller.php:35
+#: cmb/includes/shim/WP_REST_Controller.php:47
+#: cmb/includes/shim/WP_REST_Controller.php:59
+#: cmb/includes/shim/WP_REST_Controller.php:71
+#: cmb/includes/shim/WP_REST_Controller.php:83
+#: cmb/includes/shim/WP_REST_Controller.php:95
+#: cmb/includes/shim/WP_REST_Controller.php:107
+#: cmb/includes/shim/WP_REST_Controller.php:119
+#: cmb/includes/shim/WP_REST_Controller.php:131
+#: cmb/includes/shim/WP_REST_Controller.php:143
+#: cmb/includes/shim/WP_REST_Controller.php:155
+#: cmb/includes/shim/WP_REST_Controller.php:168
+#, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr ""
+
+#: cmb/includes/shim/WP_REST_Controller.php:273
+msgid "Current page of the collection."
+msgstr ""
+
+#: cmb/includes/shim/WP_REST_Controller.php:281
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: cmb/includes/shim/WP_REST_Controller.php:290
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: cmb/includes/shim/WP_REST_Controller.php:308
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+
+#: cmb/includes/types/CMB2_Type_File.php:76
+msgid "Add or Upload File"
+msgstr ""
+
+#: cmb/includes/types/CMB2_Type_File_List.php:41
+msgid "Add or Upload Files"
+msgstr ""
+
+#: cmb/includes/types/CMB2_Type_Taxonomy_Base.php:115
+msgid "No terms"
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: kadence-update-checker/inc/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:281
+msgid "Product Brand"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:608
+msgid "Thumbnail"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:623
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:625
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:627
+#, php-format
+msgid "Parent %s :"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:629
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:631
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:633
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:635
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:637
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:639
+#, php-format
+msgid "Separate %s With Commas"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:641
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:642
+msgid "Choose from the most used"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:644
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:646
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:647
+msgid "Not Found"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:684
+#: lib/brands/class-kt-extra-brands.php:689
+msgid "Brand Image"
+msgstr ""
+
+#: lib/brands/class-kt-extra-brands.php:718
+#, php-format
+msgid "Filter by %s"
+msgstr ""
+
+#: lib/brands/class-kt-filter-by-brand-widget.php:26
+#, php-format
+msgid "Display a list of %s to filter products in your store."
+msgstr ""
+
+#: lib/brands/class-kt-filter-by-brand-widget.php:28
+msgid "Filter Products by "
+msgstr ""
+
+#: lib/brands/class-kt-filter-by-brand-widget.php:33
+msgid "Filter by Brand"
+msgstr ""
+
+#: lib/brands/class-kt-filter-by-brand-widget.php:39
+msgid "Display type"
+msgstr ""
+
+#: lib/brands/class-kt-filter-by-brand-widget.php:41
+msgid "List"
+msgstr ""
+
+#: lib/brands/class-kt-filter-by-brand-widget.php:42
+#: lib/swatches/kt-variations-swatches.php:114
+msgid "Dropdown"
+msgstr ""
+
+#: lib/brands/class-kt-filter-by-brand-widget.php:305
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: lib/brands/class-kt-product-brand-widget.php:33
+#, php-format
+msgid "Display a list of %s in your store."
+msgstr ""
+
+#: lib/brands/class-kt-product-brand-widget.php:35
+msgid "Product List: "
+msgstr ""
+
+#: lib/brands/class-kt-product-brand-widget.php:39
+#, php-format
+msgid "List %s"
+msgstr ""
+
+#: lib/brands/class-kt-product-brand-widget.php:45
+msgid "Order by"
+msgstr ""
+
+#: lib/brands/class-kt-product-brand-widget.php:47
+#, php-format
+msgid "%s order"
+msgstr ""
+
+#: lib/brands/class-kt-product-brand-widget.php:48
+#: lib/reviews/kt-product-reviews.php:205
+msgid "Name"
+msgstr ""
+
+#: lib/brands/class-kt-product-brand-widget.php:54
+msgid "Show as dropdown"
+msgstr ""
+
+#: lib/brands/class-kt-product-brand-widget.php:59
+msgid "Show product counts"
+msgstr ""
+
+#: lib/brands/class-kt-product-brand-widget.php:64
+msgid "Show hierarchy"
+msgstr ""
+
+#: lib/brands/class-kt-product-brand-widget.php:69
+#, php-format
+msgid "Only show children of the current %s"
+msgstr ""
+
+#: lib/brands/class-kt-product-brand-widget.php:74
+#, php-format
+msgid "Hide empty %s"
+msgstr ""
+
+#: lib/brands/class-kt-product-brand-widget.php:79
+msgid "Maximum depth"
+msgstr ""
+
+#: lib/brands/class-kt-product-brand-widget.php:376
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: lib/brands/class-kt-product-brand-widget.php:407
+msgid "No product brands exist."
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:445
+#, php-format
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/cartnotice/kt-cart-notice.php:447
+msgid "Please choose product options&hellip;"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:482
+msgid ""
+"Please choose the quantity of items you wish to add to your cart&hellip;"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:490
+msgid "Please choose a product to add to your cart&hellip;"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:545 lib/cartnotice/kt-cart-notice.php:557
+#: lib/tabs/class-kadence-global-tabs.php:222
+msgid "Cart Notice"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:546
+msgid "Cart Notice Item"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:547 lib/cartnotice/kt-cart-notice.php:548
+msgid "Add New Cart Notice"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:549
+msgid "Edit Cart Notice"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:550
+msgid "New Cart Notice"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:551
+msgid "All Cart Notices"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:552
+msgid "View Cart Notice"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:553
+msgid "Search Cart Notices"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:554
+msgid "No Cart Notice found"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:555
+msgid "No Cart Notices found in Trash"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:582
+msgid "Cart Notice Settings"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:587
+#: lib/tabs/class-kadence-global-tabs.php:155
+msgid "Display Type"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:591
+msgid "Always Show"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:592
+msgid "Show when a certain product is in cart"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:593
+msgid "Show when a certain category is in cart"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:594
+msgid "Show when the cart total price is LESS then a certain amount"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:595
+msgid "Show when the cart total price is MORE then a certain amount"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:596
+msgid "Show when the cart total weight is LESS then a certain amount"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:597
+msgid "Show when the cart total weight is MORE then a certain amount"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:601
+msgid "Choose which product"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:612
+#: lib/tabs/class-kadence-global-tabs.php:168
+msgid "Choose which category"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:626
+msgid "Choose the price"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:636
+msgid "Choose the weight"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:646
+msgid "Cart Notice Message"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:651
+msgid "Cart Notice Button"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:656
+msgid "Button Type"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:660
+msgid "Custom Link"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:661
+msgid "Add a product to cart"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:662
+msgid "Add a coupon code"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:663
+msgid "Add product and coupon code"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:664
+msgid ""
+"\"upgrade\" Only for product display type - remove product and add new "
+"product"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:665
+msgid ""
+"\"upgrade + coupon\" Only for product display type - remove product and add "
+"new product with coupon code"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:669
+msgid "Cart Notice Button Link"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:678
+msgid "Product to add to cart"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:679
+msgid ""
+"Also note that the notice will not show if this product is already in cart."
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:690
+msgid "If Product Type Variation"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:691
+msgid ""
+"Add variation selection eg: "
+"&variation_id=117&attribute_size=Small&attribute_color=Black"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:700
+msgid "Coupon to add"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:701
+msgid "Note that the notice will not show if this coupon is already applied."
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:712
+msgid "Cart Notice Expiration (optional)"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:717
+msgid "Cart Notice Design Settings"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:722
+msgid "Notice Background Color"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:728
+msgid "Notice Border Radius"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:734
+msgid "Notice Border Width"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:740
+msgid "Notice Border Color"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:746
+msgid "Notice Message Color"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:752
+msgid "Notice Button Text Color"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:758
+msgid "Notice Button Hover Text Color"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:764
+msgid "Notice Button Background"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:770
+msgid "Notice Button Hover Background"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:782
+msgid "Notice Button Border Radius"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:788
+msgid "Notice Button Border Width"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:794
+msgid "Notice Button Border Color"
+msgstr ""
+
+#: lib/cartnotice/kt-cart-notice.php:799
+msgid "Notice Button Hover Border Color"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:301
+msgid "WooCommerce"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:307
+#: lib/checkout_editor/kt-checkout-editor.php:308
+#: lib/checkout_editor/kt-checkout-editor.php:349
+msgid "Checkout Manager"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:335
+msgid "+ Add field"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:337
+msgid "Enable"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:338
+msgid "Disable"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:341
+msgid "Save changes"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:342
+msgid "Reset to default fields"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:354
+msgid "Billing Fields"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:355
+msgid "Shipping Fields"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:356
+#: lib/checkout_editor/kt-checkout-editor.php:394
+msgid "Extra Fields"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:373
+#, php-format
+msgid "%1$s Settings Reset"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:381
+msgid "Billing Settings"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:388
+msgid "Shipping Settings"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:524
+#: lib/reviews/kt-admin-reviews-list.php:448
+msgid "Edit"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:738
+msgid "Order notes"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:873
+#, php-format
+msgid "%1$s Settings Updated"
+msgstr ""
+
+#: lib/checkout_editor/kt-checkout-editor.php:877
+#, php-format
+msgid ""
+"%1$s settings could not be updated or no changes were made. Please try again."
+msgstr ""
+
+#: lib/extracatdesc/kt-extra-cat-desc.php:40
+msgid "Extra Product Category Description Box"
+msgstr ""
+
+#: lib/extracatdesc/kt-extra-cat-desc.php:46
+msgid "Product Category Bottom Descritpion"
+msgstr ""
+
+#: lib/extracatdesc/kt-extra-cat-desc.php:47
+msgid "Add Text here to show in the bottom of your Category page"
+msgstr ""
+
+#: lib/gallery/kt-product-gallery.php:63
+msgid "Loading..."
+msgstr ""
+
+#: lib/gallery/kt-product-gallery.php:64
+msgid "of"
+msgstr ""
+
+#: lib/gallery/kt-product-gallery.php:65
+msgid "The Image could not be loaded."
+msgstr ""
+
+#: lib/gallery/kt-product-gallery.php:500
+msgid "Override product Gallery"
+msgstr ""
+
+#: lib/gallery/kt-product-gallery.php:508
+msgid "Replace Gallery with shortcode"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:34 lib/reviews/reviews.php:131
+msgid "Review"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:35
+msgid "Author"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:36
+msgid "Date"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:37
+msgid "Votes"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:38 lib/reviews/reviews.php:932
+msgid "Rating"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:39
+msgid "Product"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:323
+#: lib/reviews/kt-admin-reviews-list.php:401
+msgid "Restore"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:324
+msgid "Move to Trash"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:326
+#: lib/reviews/kt-admin-reviews-list.php:406
+msgid "Delete permanently"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:327
+msgid "Approve reviews"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:328
+msgid "Unapprove reviews"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:335
+msgid "All"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:336
+msgid "Trashed"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:337
+msgid "Not approved"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:401
+msgid "Restore this item from the trash"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:403
+msgid "Move this item to the trash"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:403
+msgid "Trash"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:406
+msgid "Delete this item permanently"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:420
+#: lib/reviews/kt-single-review.php:64
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:421
+#: lib/reviews/kt-single-review.php:65 lib/reviews/reviews.php:589
+#: lib/reviews/reviews.php:1141
+msgid "out of 5"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:451
+msgid "View"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:460
+#: lib/reviews/kt-admin-reviews-list.php:465
+#: lib/reviews/kt-single-review.php:36
+msgid "Anonymous"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:483
+msgid "Y/m/d g:i:s a"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:490
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:492
+msgid "Y/m/d"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews-list.php:515
+msgid "No reviews found."
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews.php:14
+msgid "Product reviews"
+msgstr ""
+
+#: lib/reviews/kt-admin-reviews.php:20
+msgid "Search reviews"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews-overview.php:21 lib/reviews/reviews.php:614
+msgid "out of 5 stars"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:90
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/reviews/kt-product-reviews.php:93 lib/reviews/reviews.php:101
+#: lib/reviews/reviews.php:102 lib/reviews/reviews.php:130
+#: lib/reviews/reviews.php:142
+msgid "Reviews"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:178
+msgid "Read More Reviews"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:187
+msgid "There are no reviews yet."
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:201
+msgid "Add a review"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:201
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:202
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:207
+msgid "Email"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:210
+msgid "Submit"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:216
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:220
+msgid "Your Rating"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:221
+msgid "Rate&hellip;"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:222
+msgid "Perfect"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:223
+msgid "Good"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:224
+msgid "Average"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:225
+msgid "Not that bad"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:226
+msgid "Very Poor"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:230
+msgid "Review title"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:238
+#, php-format
+msgid "Please check to consent to our %s"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:240
+msgid "Please check to consent to our privacy policy"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:244
+msgid "Your Review"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:253
+msgid ""
+"Only logged in customers who have purchased this product may write a review."
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:264
+msgid "Login"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:272
+msgid "Don't have an account?"
+msgstr ""
+
+#: lib/reviews/kt-product-reviews.php:273
+msgid "Sign Up"
+msgstr ""
+
+#: lib/reviews/kt-rating.php:22 lib/reviews/reviews.php:611
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: lib/reviews/kt-rating.php:24
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: lib/reviews/kt-rating.php:25
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/reviews/kt-rating.php:30
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/reviews/kt-single-review.php:49 lib/reviews/kt-single-review.php:51
+msgid "Reviewer profile image"
+msgstr ""
+
+#: lib/reviews/kt-single-review.php:54
+msgid "Featured Review"
+msgstr ""
+
+#: lib/reviews/kt-single-review.php:73
+msgid "Your comment is waiting for approval"
+msgstr ""
+
+#: lib/reviews/kt-single-review.php:82
+msgid "verified owner"
+msgstr ""
+
+#: lib/reviews/kt-single-review.php:104
+#, php-format
+msgid "%d of %s found this helpful"
+msgstr ""
+
+#: lib/reviews/kt-single-review.php:114
+msgid "Upvote if this was helpful."
+msgstr ""
+
+#: lib/reviews/kt-single-review.php:114
+msgid "Downvote if this was not helpful."
+msgstr ""
+
+#: lib/reviews/reviews.php:87
+msgid "An error occurred, please try again later"
+msgstr ""
+
+#: lib/reviews/reviews.php:88
+msgid "There are no more reviews"
+msgstr ""
+
+#: lib/reviews/reviews.php:104
+msgid "kt_reviews"
+msgstr ""
+
+#: lib/reviews/reviews.php:132
+msgid "Add Review"
+msgstr ""
+
+#: lib/reviews/reviews.php:133
+msgid "Add New Review"
+msgstr ""
+
+#: lib/reviews/reviews.php:134
+msgid "Edit Review"
+msgstr ""
+
+#: lib/reviews/reviews.php:135
+msgid "New Review"
+msgstr ""
+
+#: lib/reviews/reviews.php:136
+msgid "All Reviews"
+msgstr ""
+
+#: lib/reviews/reviews.php:137
+msgid "View Review"
+msgstr ""
+
+#: lib/reviews/reviews.php:138
+msgid "Search Review"
+msgstr ""
+
+#: lib/reviews/reviews.php:139
+msgid "No Review found"
+msgstr ""
+
+#: lib/reviews/reviews.php:140
+msgid "No Reviews found in Trash"
+msgstr ""
+
+#: lib/reviews/reviews.php:574
+#, php-format
+msgid "Reviews(%d)"
+msgstr ""
+
+#: lib/reviews/reviews.php:587
+#, php-format
+msgid "Rated %s out test of 5"
+msgstr ""
+
+#: lib/reviews/reviews.php:614
+msgid " review"
+msgid_plural " reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/reviews/reviews.php:807
+msgid "Approve review"
+msgstr ""
+
+#: lib/reviews/reviews.php:807
+msgid "Approve"
+msgstr ""
+
+#: lib/reviews/reviews.php:809
+msgid "Unapprove review"
+msgstr ""
+
+#: lib/reviews/reviews.php:809
+msgid "Unapprove"
+msgstr ""
+
+#: lib/reviews/reviews.php:919
+msgid "Review Settings"
+msgstr ""
+
+#: lib/reviews/reviews.php:925
+msgid "Author Name (if not a site user, else shows site user display name)"
+msgstr ""
+
+#: lib/reviews/reviews.php:936
+msgid "1 Star"
+msgstr ""
+
+#: lib/reviews/reviews.php:937
+msgid "2 Stars"
+msgstr ""
+
+#: lib/reviews/reviews.php:938
+msgid "3 Stars"
+msgstr ""
+
+#: lib/reviews/reviews.php:939
+msgid "4 Stars"
+msgstr ""
+
+#: lib/reviews/reviews.php:940
+msgid "5 Stars"
+msgstr ""
+
+#: lib/reviews/reviews.php:946
+msgid "Review Approved"
+msgstr ""
+
+#: lib/reviews/reviews.php:950
+msgid "Not Approved"
+msgstr ""
+
+#: lib/reviews/reviews.php:951
+msgid "Approved"
+msgstr ""
+
+#: lib/reviews/reviews.php:957
+msgid "Up Votes"
+msgstr ""
+
+#: lib/reviews/reviews.php:965
+msgid "Down Votes"
+msgstr ""
+
+#: lib/reviews/reviews.php:973
+msgid "Review is Featured"
+msgstr ""
+
+#: lib/reviews/reviews.php:987
+#, php-format
+msgid "Converted %d Reviews"
+msgstr ""
+
+#: lib/reviews/reviews.php:998
+#, php-format
+msgid "Completed. %d reviews have been processed and converted."
+msgstr ""
+
+#: lib/reviews/reviews.php:1000
+msgid "Completed. No reviews needing to be converted have been found."
+msgstr ""
+
+#: lib/reviews/reviews.php:1051 lib/reviews/reviews.php:1102
+#, php-format
+msgid "%1$d of %2$s found this helpful"
+msgstr ""
+
+#: lib/reviews/reviews.php:1053 lib/reviews/reviews.php:1104
+msgid "You have already voted"
+msgstr ""
+
+#: lib/reviews/reviews.php:1112
+msgid "WooCommerce Recent Reviews"
+msgstr ""
+
+#: lib/reviews/reviews.php:1143
+msgid "reviewed by"
+msgstr ""
+
+#: lib/reviews/reviews.php:1149
+msgid "There are no product reviews yet."
+msgstr ""
+
+#: lib/sizechart/class-size-chart-widget.php:14
+msgid "Use this widget to add a size cart button"
+msgstr ""
+
+#: lib/sizechart/class-size-chart-widget.php:16
+msgid "Woo Product: Size Chart"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:49 lib/sizechart/kt-size-chart.php:61
+#: lib/sizechart/kt-size-chart.php:228
+msgid "Size Chart"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:50
+msgid "Size Chart Item"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:51 lib/sizechart/kt-size-chart.php:52
+msgid "Add New Chart"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:53
+msgid "Edit Chart"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:54
+msgid "New Chart"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:55
+msgid "All Charts"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:56
+msgid "View Chart"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:57
+msgid "Search Chart"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:58
+msgid "No Chart found"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:59
+msgid "No Charts found in Trash"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:225
+msgid "Close"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:397
+msgid "Size Chart Settings"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:404
+msgid "Placement"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:408
+msgid "Button after \"add to cart\""
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:409
+msgid "Button before \"add to cart\""
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:410
+msgid "Button after \"product short description\""
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:411
+msgid "Button before \"product short description\""
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:412
+msgid "Button after \"product meta\""
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:413
+msgid "Add as Tab, no button"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:414
+msgid "Template builder widget"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:420
+msgid "Modal Title Color"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:427
+msgid "Modal Text Color"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:434
+msgid "Modal Background Color"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:441
+msgid "Modal Overlay Background Color"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:448
+msgid "Modal Button Text Color"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:455
+msgid "Modal Button Hover Text Color"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:462
+msgid "Modal Button Background"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:469
+msgid "Modal Button Hover Background"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:484
+msgid "Modal Button Border Radius"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:492
+msgid "Modal Button Border Width"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:500
+msgid "Modal Button Border Color"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:507
+msgid "Modal Button Hover Border Color"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:514
+msgid "Modal Button Text"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:521
+msgid "Modal \"Close\" Text"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:528
+msgid "If tab, set priority"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:529
+msgid "This determines where the tab is placed in your product tabs"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:537
+msgid "Chart Categories"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:538
+msgid "Select categories for chart to auto appear on"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:547
+msgid "Responsive tables?"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:549
+msgid "You can add a table into your content area using the shortcode button"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:561
+msgid "Product Size Chart"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:569
+msgid "Assign Size Chart"
+msgstr ""
+
+#: lib/sizechart/kt-size-chart.php:570
+msgid "Choose a size chart to assign to product."
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches-output.php:22
+#: lib/swatches/kt-variations-swatches-output.php:433
+msgid "Choose an option"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:32
+msgid "Product variation attributes"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:111
+msgid "Variation Style"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:115
+msgid "Radio Box"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:116
+msgid "Color and image swatches"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:133
+msgid "Display Label"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:147
+msgid "Swatch Size"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:194
+msgid "Preview"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:195
+msgid "Attribute"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:196
+msgid "Type"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:237
+#: lib/swatches/kt-variations-swatches.php:282
+#: lib/swatches/kt-variations-swatches.php:293
+#: lib/swatches/kt-variations-swatches.php:376
+msgid "Color"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:280
+msgid "Attribute Color or Image"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:304
+msgid "Upload/Add image"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:372
+msgid "Swatch Type"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:381
+msgid "Swatch Color"
+msgstr ""
+
+#: lib/swatches/kt-variations-swatches.php:386
+msgid "Swatch Image"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:134
+#: lib/tabs/class-kadence-global-tabs.php:135
+#: lib/tabs/class-kadence-global-tabs.php:210
+msgid "Product Tabs"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:149
+msgid "Tab Settings"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:160
+msgid "Add to every product"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:161
+msgid "Add to products of a specific category"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:162
+msgid "Add only to specific products"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:185
+msgid "Choose which products"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:198
+msgid "Choose tab priority (0 - 100 )"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:211
+msgid "Product Tab"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:212
+#: lib/tabs/class-kadence-global-tabs.php:213
+msgid "Add New Product Tab"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:214
+msgid "Edit Product Tab"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:215
+msgid "New Product Tab"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:216
+msgid "All Product Tabs"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:217
+msgid "View Product Tab"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:218
+msgid "Search Product Tabs"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:219
+msgid "No Product Tab found"
+msgstr ""
+
+#: lib/tabs/class-kadence-global-tabs.php:220
+msgid "No Product Tabs found in Trash"
+msgstr ""

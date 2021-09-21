@@ -1,0 +1,43 @@
+.r3d-thumbs-wrapper{
+    height: 230px;
+    overflow: auto;
+}
+
+.r3d-thumbs{
+    width: max-content;
+}
+
+.r3d-thumb{
+    display: inline-block; 
+    padding: 10px;
+    border: 2px solid transparent;
+}
+
+.r3d-thumb-selected{
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    border: 2px solid grey;
+}
+
+.r3d-thumb-img{
+    width:100px; 
+    height: 141px; 
+    background-size: cover;
+    box-shadow: 0 0 1px grey;
+}
+
+.r3d-thumb-name{
+    text-align: center;
+    color: #666;
+}
+
+.r3d-thumbs-wrapper::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+    background-color: lightgrey;
+}
+
+.r3d-thumbs-wrapper::-webkit-scrollbar-thumb {
+    background:grey;
+    border-radius: 7px;
+} 
+
